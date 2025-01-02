@@ -15,6 +15,10 @@ class PpsFoodFeed
       @h = h
     end
 
+    def each(&)
+      return @h.each(&)
+    end
+
     def get(menu_name, menu_month, key)
       return @h.fetch(menu_name, nil)&.fetch(menu_month, nil)&.fetch(key.to_s, nil)
     end

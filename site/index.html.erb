@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <title>PPS Menu Calendar Feed</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pelinoleg/CSSformalize@master/css/css-formalize.min.css">
+  <style>
+      /* See https://www.cssformalize.com/generate.html */
+      :root {
+          --cform-text-color: rgba(0, 0, 0, 1);
+          --cform-accent: rgba(0, 0, 0, 1);
+      }
+
+      body {
+          margin: 0;
+          padding: 0;
+          font: 16px/24px Helvetica Neue, Arial, Helvetica, sans-serif;
+      }
+
+      .root {
+          margin: 18px;
+      }
+
+
+      .pagehead {
+          margin: 0;
+      }
+
+      .subhead {
+          margin: 16px 0 0;
+      }
+
+      .nav {
+          display: flex;
+          flex-direction: column;
+          padding: 16px 12px 16px;
+          background-color: white;
+      }
+
+      .col {
+          display: flex;
+          flex-direction: column;
+      }
+
+      h1 {
+          line-height: 100%;
+      }
+
+      ul {
+          margin-bottom: 0;
+      }
+  </style>
+</head>
+<body>
+<div class="root">
+  <div class="chrome">
+    <div class="nav">
+      <div class="col">
+        <h1 class="pagehead">PPS Food Menu Calendars</h1>
+        <p class="subhead">
+          Sync the PPS food menus to your calendar app.
+        </p>
+        <p class="subhead">
+          To add a calendar, you should 'Import from URL' and use the URL for the food menus you care
+          about.
+        </p>
+        <ul>
+          <li><a href="https://www.gsa.gov/system/files/ImportCalendarGoogle.pdf">Instructions for GMail</a></li>
+          <li><a href="https://www.iphonelife.com/content/how-to-link-calendars-iphone-2022">Instructions for iPhone</a>
+          </li>
+        </ul>
+        <p class="subhead">
+          Here are the menus (may be empty during the summer):
+        </p>
+        <ul>
+          <% links.each do |link| %>
+            <li><a href="<%= link[:href] %>"><%= link[:name] %></a></li>
+          <% end %>
+        </ul>
+        <p class="subhead">
+          Email <a href="mailto://<%= author %> %>"><%= author %></a> to report any issues.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

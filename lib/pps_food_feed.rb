@@ -70,3 +70,4 @@ end
 require_relative "pps_food_feed/menu_fetcher"
 require_relative "pps_food_feed/csv_converter"
 require_relative "pps_food_feed/ics_converter"
+require_relative "pps_food_feed/index_generator"
