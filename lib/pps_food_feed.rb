@@ -21,7 +21,8 @@ class PpsFoodFeed
   AUTHOR = "rob.galanakis@lithic.tech"
   ROOT_DIR = Pathname(__dir__).parent
   CSV_DIR = ROOT_DIR.join("csvs")
-  FEEDS_DIR = ROOT_DIR.join("feeds")
+  STATIC_DIR = ROOT_DIR.join("static")
+  FEEDS_DIR = STATIC_DIR.join("feeds")
   META_DIR = ROOT_DIR.join("meta")
   PDF_DIR = ROOT_DIR.join("pdfs")
   PNG_DIR = ROOT_DIR.join("pngs")
@@ -40,6 +41,10 @@ class PpsFoodFeed
     setting :anthropic_api_key,
             "unsetkey",
             key: "ANTHROPIC_API_KEY"
+    # Set to empty when hosting at root, or the repo name in github pages
+    setting :site_root,
+            "/pps-food-feed",
+            key: "SITE_ROOT"
   end
 
   class << self

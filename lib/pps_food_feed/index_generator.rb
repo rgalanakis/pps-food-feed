@@ -16,7 +16,7 @@ class PpsFoodFeed
       links = []
       meta.each do |name, months|
         next unless self.recent?(months)
-        href = "/feeds/#{name}.ics"
+        href = "#{PpsFoodFeed.site_root}/static/feeds/#{name}.ics"
         links << {href:, name:}
       end
       links.sort_by! { |li| li[:name] }
