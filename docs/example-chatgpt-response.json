@@ -1,0 +1,34 @@
+{
+  "id": "chatcmpl-AlJPSRwg5O8c86dR4ka8vKii44bdA",
+  "object": "chat.completion",
+  "created": 1735839390,
+  "model": "gpt-4o-mini-2024-07-18",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Here is the CSV representation of the calendar with the requested data:\n\n```csv\nmonth,year,day of month,meal\nJanuary,2025,6,Cereal\nJanuary,2025,7,Cereal\nJanuary,2025,8,Blueberry Pomegranate Breakfast Bar\nJanuary,2025,9,Bagel Sticks with Cream Cheese\nJanuary,2025,10,Cinnamon Crumble Bread\nJanuary,2025,13,Cereal\nJanuary,2025,14,Children Tenders\nJanuary,2025,15,Pancakes with Children Sausage and Berry Compote\nJanuary,2025,19,Cereal\nJanuary,2025,21,Breakfast Bread\nJanuary,2025,22,Orange Chicken with Brown Rice\nJanuary,2025,23,Cereal\nJanuary,2025,24,Cheese Pizza\nJanuary,2025,25,Grilled Cheese Sandwich\nJanuary,2025,26,Cereal\nJanuary,2025,29,Children Dumplings\nJanuary,2025,30,Cheese Pizza\nJanuary,2025,31,Teriyaki Chicken with Brown Rice\n```\n\nThis CSV file includes meals served only on days when schools are open.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 927,
+    "completion_tokens": 251,
+    "total_tokens": 1178,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "system_fingerprint": "fp_d02d531b47"
+}

@@ -1,5 +1,10 @@
 # frozen_string_literal: true
 
+require "fileutils"
+require "httpx"
+require "nokogiri"
+require "rmagick"
+
 class PpsFoodFeed
   class MenuFetcher
     include Appydays::Loggable
@@ -9,8 +14,8 @@ class PpsFoodFeed
     MENU_URL = "#{PPS_ROOT}/Page/214".freeze
 
     def run
-      FileUtils.mkdir_p(PpsFoodFeed::PDFS_DIR)
-      FileUtils.mkdir_p(PpsFoodFeed::PNGS_DIR)
+      FileUtils.mkdir_p(PpsFoodFeed::PDF_DIR)
+      FileUtils.mkdir_p(PpsFoodFeed::PNG_DIR)
       menu_resp = HTTPX.get(MENU_URL).raise_for_status
       menu_html = menu_resp.to_s
       menu_doc = Nokogiri::HTML(menu_html)
@@ -38,18 +43,7 @@ class PpsFoodFeed
       end
     end
 
-    def pdf_filename(month, name) = menu_filename(PpsFoodFeed::PDFS_DIR, month, name, ".pdf")
-    def png_filename(month, name) = menu_filename(PpsFoodFeed::PNGS_DIR, month, name, ".png")
-
-    # See +menu_name_and_month+ to get the month and name back.
-    def menu_filename(dir, month, name, ext)
-      name = name.gsub("/", ", ")
-      return dir.join("#{name} - #{month}#{ext}")
-    end
-
-    # See +menu_filename+ to create this name.
-    def menu_name_and_month(p)
-      return File.basename(p, ".*").split(" - ")
-    end
+    def pdf_filename(month, name) = PpsFoodFeed.menu_filename(PpsFoodFeed::PDF_DIR, month, name, ".pdf")
+    def png_filename(month, name) = PpsFoodFeed.menu_filename(PpsFoodFeed::PNG_DIR, month, name, ".png")
   end
 end

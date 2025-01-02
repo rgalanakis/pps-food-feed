@@ -13,17 +13,14 @@
 
 require "appydays/configurable"
 require "appydays/loggable"
-require "fileutils"
-require "httpx"
-require "nokogiri"
-require "RMagick"
 
 class PpsFoodFeed
   VERSION = "0.0.1"
   APPLICATION_NAME = "PPS Food Feed"
+  CSV_DIR = Pathname(__dir__).parent.join("csvs")
   FEEDS_DIR = Pathname(__dir__).parent.join("feeds")
-  PDFS_DIR = Pathname(__dir__).parent.join("pdfs")
-  PNGS_DIR = Pathname(__dir__).parent.join("pngs")
+  PDF_DIR = Pathname(__dir__).parent.join("pdfs")
+  PNG_DIR = Pathname(__dir__).parent.join("pngs")
 
   include Appydays::Configurable
   include Appydays::Loggable
@@ -33,7 +30,12 @@ class PpsFoodFeed
             nil,
             key: "LOG_LEVEL",
             side_effect: ->(v) { Appydays::Loggable.default_level = v if v }
-    setting :log_format, :json_trunc
+    setting :log_format,
+            :json_trunc,
+            key: "LOG_FORMAT"
+    setting :anthropic_api_key,
+            "unsetkey",
+            key: "ANTHROPIC_API_KEY"
   end
 
   class << self
@@ -46,6 +48,17 @@ class PpsFoodFeed
 
     def load_app
       Appydays::Loggable.configure_12factor(format: self.log_format, application: APPLICATION_NAME)
+    end
+
+    # See +menu_name_and_month+ to get the month and name back.
+    def menu_filename(dir, month, name, ext)
+      name = name.gsub("/", ", ")
+      return dir.join("#{name} - #{month}#{ext}")
+    end
+
+    # See +menu_filename+ to create this name.
+    def menu_name_and_month(p)
+      return File.basename(p, ".*").split(" - ")
     end
   end
 
