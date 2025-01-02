@@ -44,10 +44,10 @@ class PpsFoodFeed
 
   class << self
     def run
-      f = self.new
-      f.fetch_menus
-      f.convert_csvs
-      f.convert_ics
+      MenuFetcher.new.run
+      CsvConverter.new.run
+      IcsConverter.new.run
+      IndexGenerator.new.run
     end
 
     def load_app
@@ -65,10 +65,6 @@ class PpsFoodFeed
       return File.basename(p, ".*").split(" - ")
     end
   end
-
-  def fetch_menus = MenuFetcher.new.run
-  def convert_csvs = CsvConverter.new.run
-  def convert_ics = IcsConverter.new.run
 end
 
 require_relative "pps_food_feed/menu_fetcher"
