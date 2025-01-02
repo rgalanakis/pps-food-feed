@@ -43,7 +43,7 @@ class PpsFoodFeed
             key: "ANTHROPIC_API_KEY"
     # Set to empty when hosting at root, or the repo name in github pages
     setting :site_root,
-            "/pps-food-feed",
+            "",
             key: "SITE_ROOT"
   end
 
