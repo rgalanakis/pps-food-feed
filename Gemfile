@@ -5,8 +5,9 @@ ruby "3.3.4"
 
 gem "appydays"
 gem "base64"
+gem "csv"
 gem "httpx"
-gem "ice_cube"
+gem "icalendar"
 gem "nokogiri"
 gem "rmagick"
 

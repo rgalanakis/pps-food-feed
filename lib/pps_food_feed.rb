@@ -17,10 +17,14 @@ require "appydays/loggable"
 class PpsFoodFeed
   VERSION = "0.0.1"
   APPLICATION_NAME = "PPS Food Feed"
-  CSV_DIR = Pathname(__dir__).parent.join("csvs")
-  FEEDS_DIR = Pathname(__dir__).parent.join("feeds")
-  PDF_DIR = Pathname(__dir__).parent.join("pdfs")
-  PNG_DIR = Pathname(__dir__).parent.join("pngs")
+  HOMEPAGE = "https://ppsmenus.net"
+  AUTHOR = "rob.galanakis@lithic.tech"
+  ROOT_DIR = Pathname(__dir__).parent
+  CSV_DIR = ROOT_DIR.join("csvs")
+  FEEDS_DIR = ROOT_DIR.join("feeds")
+  META_DIR = ROOT_DIR.join("meta")
+  PDF_DIR = ROOT_DIR.join("pdfs")
+  PNG_DIR = ROOT_DIR.join("pngs")
 
   include Appydays::Configurable
   include Appydays::Loggable
