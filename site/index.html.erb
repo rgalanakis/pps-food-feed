@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>PPS Menu Calendar Feed</title>
+  <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pelinoleg/CSSformalize@master/css/css-formalize.min.css">
   <style>
@@ -16,6 +17,10 @@
           margin: 0;
           padding: 0;
           font: 16px/24px Helvetica Neue, Arial, Helvetica, sans-serif;
+      }
+
+      .hidden {
+          display: none;
       }
 
       .root {
@@ -50,6 +55,24 @@
       ul {
           margin-bottom: 0;
       }
+
+      .status {
+          position: fixed;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: 16px;
+          background: white;
+          border-radius: 12px;
+          border: black 2px solid;
+          padding: 12px;
+      }
+
+      .copyable-menu-link {
+          cursor: pointer;
+          padding: 8px;
+          margin-left: -8px;
+          display: inline-block;
+      }
   </style>
 </head>
 <body>
@@ -71,15 +94,33 @@
           </li>
         </ul>
         <p class="subhead">
-          Here are the menus (may be empty during the summer):
+          Here are the menus. You can tap on the link to copy it:
         </p>
+        <script>
+          function handleUrlClick(e) {
+            window.clearTimeout(window._ppsStatus)
+            navigator.clipboard.writeText(e.target.innerHTML)
+            document.getElementById('status').classList.remove('hidden')
+            window._ppsStatus = window.setTimeout(() => {
+              document.getElementById('status').classList.add('hidden')
+            }, 4000)
+          }
+        </script>
         <ul>
           <% links.each do |link| %>
-            <li><a href="<%= link[:href] %>"><%= link[:name] %></a></li>
+            <li>
+              <a href="<%= link[:href] %>"><%= link[:name] %></a>
+              <div class="copyable-menu-link" onclick="handleUrlClick(event)"><%= link[:href] %>&nbsp;📋</div>
+            </li>
           <% end %>
         </ul>
+        <p id="status" class="subhead status hidden">Copied to clipboard!</p>
         <p class="subhead">
           Email <a href="mailto://<%= author %> %>"><%= author %></a> to report any issues.
+        </p>
+        <p class="subhead">
+          Check out the code at
+          <a href="https://github.com/rgalanakis/pps-food-feed">github.com/rgalanakis/pps-food-feed</a>.
         </p>
       </div>
     </div>

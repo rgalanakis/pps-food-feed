@@ -1,0 +1,4 @@
+/static/feeds/:name
+  Content-Disposition: attachment; filename=":name"
+/static/feeds/Afterschool+Snack.ics
+  Content-Disposition: attachment; filename="Afterschool Snack.ics"

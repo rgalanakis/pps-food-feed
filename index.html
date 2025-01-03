@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>PPS Menu Calendar Feed</title>
+  <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pelinoleg/CSSformalize@master/css/css-formalize.min.css">
   <style>
@@ -16,6 +17,10 @@
           margin: 0;
           padding: 0;
           font: 16px/24px Helvetica Neue, Arial, Helvetica, sans-serif;
+      }
+
+      .hidden {
+          display: none;
       }
 
       .root {
@@ -50,6 +55,24 @@
       ul {
           margin-bottom: 0;
       }
+
+      .status {
+          position: fixed;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: 16px;
+          background: white;
+          border-radius: 12px;
+          border: black 2px solid;
+          padding: 12px;
+      }
+
+      .copyable-menu-link {
+          cursor: pointer;
+          padding: 8px;
+          margin-left: -8px;
+          display: inline-block;
+      }
   </style>
 </head>
 <body>
@@ -71,37 +94,88 @@
           </li>
         </ul>
         <p class="subhead">
-          Here are the menus (may be empty during the summer):
+          Here are the menus. You can tap on the link to copy it:
         </p>
+        <script>
+          function handleUrlClick(e) {
+            window.clearTimeout(window._ppsStatus)
+            navigator.clipboard.writeText(e.target.innerHTML)
+            document.getElementById('status').classList.remove('hidden')
+            window._ppsStatus = window.setTimeout(() => {
+              document.getElementById('status').classList.add('hidden')
+            }, 4000)
+          }
+        </script>
         <ul>
           
-            <li><a href="/static/feeds/Afterschool Snack.ics">Afterschool Snack</a></li>
+            <li>
+              <a href="https://ppsmenus.net/static/feeds/Afterschool+Snack.ics">Afterschool Snack</a>
+              <div class="copyable-menu-link" onclick="handleUrlClick(event)">https://ppsmenus.net/static/feeds/Afterschool+Snack.ics&nbsp;📋</div>
+            </li>
           
-            <li><a href="/static/feeds/Breakfast (All Grades).ics">Breakfast (All Grades)</a></li>
+            <li>
+              <a href="https://ppsmenus.net/static/feeds/Breakfast+%28All+Grades%29.ics">Breakfast (All Grades)</a>
+              <div class="copyable-menu-link" onclick="handleUrlClick(event)">https://ppsmenus.net/static/feeds/Breakfast+%28All+Grades%29.ics&nbsp;📋</div>
+            </li>
           
-            <li><a href="/static/feeds/Breakfast, Lunch (Access, CTP).ics">Breakfast, Lunch (Access, CTP)</a></li>
+            <li>
+              <a href="https://ppsmenus.net/static/feeds/Breakfast%2C+Lunch+%28Access%2C+CTP%29.ics">Breakfast, Lunch (Access, CTP)</a>
+              <div class="copyable-menu-link" onclick="handleUrlClick(event)">https://ppsmenus.net/static/feeds/Breakfast%2C+Lunch+%28Access%2C+CTP%29.ics&nbsp;📋</div>
+            </li>
           
-            <li><a href="/static/feeds/Early Learners.ics">Early Learners</a></li>
+            <li>
+              <a href="https://ppsmenus.net/static/feeds/Early+Learners.ics">Early Learners</a>
+              <div class="copyable-menu-link" onclick="handleUrlClick(event)">https://ppsmenus.net/static/feeds/Early+Learners.ics&nbsp;📋</div>
+            </li>
           
-            <li><a href="/static/feeds/Early Learners (Creston).ics">Early Learners (Creston)</a></li>
+            <li>
+              <a href="https://ppsmenus.net/static/feeds/Early+Learners+%28Creston%29.ics">Early Learners (Creston)</a>
+              <div class="copyable-menu-link" onclick="handleUrlClick(event)">https://ppsmenus.net/static/feeds/Early+Learners+%28Creston%29.ics&nbsp;📋</div>
+            </li>
           
-            <li><a href="/static/feeds/Head Start (Creston).ics">Head Start (Creston)</a></li>
+            <li>
+              <a href="https://ppsmenus.net/static/feeds/Head+Start+%28Creston%29.ics">Head Start (Creston)</a>
+              <div class="copyable-menu-link" onclick="handleUrlClick(event)">https://ppsmenus.net/static/feeds/Head+Start+%28Creston%29.ics&nbsp;📋</div>
+            </li>
           
-            <li><a href="/static/feeds/Head Start (MECP).ics">Head Start (MECP)</a></li>
+            <li>
+              <a href="https://ppsmenus.net/static/feeds/Head+Start+%28MECP%29.ics">Head Start (MECP)</a>
+              <div class="copyable-menu-link" onclick="handleUrlClick(event)">https://ppsmenus.net/static/feeds/Head+Start+%28MECP%29.ics&nbsp;📋</div>
+            </li>
           
-            <li><a href="/static/feeds/Head Start, Pre-K.ics">Head Start, Pre-K</a></li>
+            <li>
+              <a href="https://ppsmenus.net/static/feeds/Head+Start%2C+Pre-K.ics">Head Start, Pre-K</a>
+              <div class="copyable-menu-link" onclick="handleUrlClick(event)">https://ppsmenus.net/static/feeds/Head+Start%2C+Pre-K.ics&nbsp;📋</div>
+            </li>
           
-            <li><a href="/static/feeds/Lunch (HS).ics">Lunch (HS)</a></li>
+            <li>
+              <a href="https://ppsmenus.net/static/feeds/Lunch+%28HS%29.ics">Lunch (HS)</a>
+              <div class="copyable-menu-link" onclick="handleUrlClick(event)">https://ppsmenus.net/static/feeds/Lunch+%28HS%29.ics&nbsp;📋</div>
+            </li>
           
-            <li><a href="/static/feeds/Lunch (K5, K8, MS).ics">Lunch (K5, K8, MS)</a></li>
+            <li>
+              <a href="https://ppsmenus.net/static/feeds/Lunch+%28K5%2C+K8%2C+MS%29.ics">Lunch (K5, K8, MS)</a>
+              <div class="copyable-menu-link" onclick="handleUrlClick(event)">https://ppsmenus.net/static/feeds/Lunch+%28K5%2C+K8%2C+MS%29.ics&nbsp;📋</div>
+            </li>
           
-            <li><a href="/static/feeds/MECP.ics">MECP</a></li>
+            <li>
+              <a href="https://ppsmenus.net/static/feeds/MECP.ics">MECP</a>
+              <div class="copyable-menu-link" onclick="handleUrlClick(event)">https://ppsmenus.net/static/feeds/MECP.ics&nbsp;📋</div>
+            </li>
           
-            <li><a href="/static/feeds/Neighborhood House.ics">Neighborhood House</a></li>
+            <li>
+              <a href="https://ppsmenus.net/static/feeds/Neighborhood+House.ics">Neighborhood House</a>
+              <div class="copyable-menu-link" onclick="handleUrlClick(event)">https://ppsmenus.net/static/feeds/Neighborhood+House.ics&nbsp;📋</div>
+            </li>
           
         </ul>
+        <p id="status" class="subhead status">Copied to clipboard!</p>
         <p class="subhead">
           Email <a href="mailto://rob.galanakis@lithic.tech %>">rob.galanakis@lithic.tech</a> to report any issues.
+        </p>
+        <p class="subhead">
+          Check out the code at
+          <a href="https://github.com/rgalanakis/pps-food-feed">github.com/rgalanakis/pps-food-feed</a>.
         </p>
       </div>
     </div>

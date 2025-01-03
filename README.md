@@ -14,15 +14,18 @@ The .ics generation process:
 - Converts the CSV into iCalendar feeds, one for each menu found on the site.
 - Each stage (pdf download, LLM parsing) is cached in the repo.
 
-The menu generation is run:
+The feed generation is run:
 
 - In a GitHub action that runs nightly.
 - It generates a PR if there is a diff.
+- Review and merge the PR, which will cause a rebuild/deploy.
 
 The site:
 
-- Is served using GitHub pages.
-- Generates a link to a feed if the feed has any fetches in the last 3 months
+- Is served in GitHub pages.
+- Generates a link to a feed if the feed has any fetches in the last 3 months 
   (some menus may be for previous school years).
+- Is fronted by CloudFlare, so custom headers (in `_headers`) are generated
+  to set a Content-Disposition header for the feeds.
 
 For help, post an issue or contact Rob Galanakis, rob.galanakis@gmail.com

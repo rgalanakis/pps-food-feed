@@ -41,10 +41,10 @@ class PpsFoodFeed
     setting :anthropic_api_key,
             "unsetkey",
             key: "ANTHROPIC_API_KEY"
-    # Set to empty when hosting at root, or the repo name in github pages
-    setting :site_root,
-            "",
-            key: "SITE_ROOT"
+    # Modify this if serving from not the homepage.
+    setting :site_host,
+            HOMEPAGE,
+            key: "SITE_HOST"
   end
 
   class << self

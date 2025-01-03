@@ -22,7 +22,8 @@ class PpsFoodFeed
     def create_ical(menu_name, csv_files)
       menu = PpsFoodFeed::Menus.get(menu_name)
       cal = Icalendar::Calendar.new
-      cal.prodid = "PPS Menu - #{menu_name}"
+      cal.prodid = "#{PpsFoodFeed::HOMEPAGE}"
+      cal.publish
       csv_files.each do |csv_file|
         _, menu_month = PpsFoodFeed.menu_name_and_month(csv_file)
         CSV.foreach(csv_file, headers: true, header_converters: :symbol, converters: :all) do |row|
