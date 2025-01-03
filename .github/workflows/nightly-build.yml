@@ -18,12 +18,10 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-      - name: Install dependencies
-        run: |
-          sudo apt-get -yqq install libpq-dev
-      - name: Run specs
+      - name: Build site
         run: bundle exec ruby bin/build.rb
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
-        branch: nightly
-        commit-message: Updated with PPS Menus
+        with:
+          branch: nightly
+          commit-message: Updated with PPS Menus
