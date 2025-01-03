@@ -45,6 +45,7 @@ class PpsFoodFeed
           end
         end
       end
+      cal.events.sort_by! { |e| [e.dtstart, e.summary, e.uid] }
       ical_filename = self.ical_filename(menu_name)
       @meta.set(menu_name, "_", :ical_filename, ical_filename)
       File.write(PpsFoodFeed::FEEDS_DIR.join(ical_filename), cal.to_ical)
