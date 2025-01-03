@@ -1,4 +1,4 @@
-/static/feeds/:name
-  Content-Disposition: attachment; filename=":name"
-/static/feeds/Afterschool+Snack.ics
-  Content-Disposition: attachment; filename="Afterschool Snack.ics"
+<% links.each do |link| %>
+<%= link[:path] %>
+  Content-Disposition: attachment; filename="PPS Menu - <%= link[:name] %>.ics"
+<% end %>

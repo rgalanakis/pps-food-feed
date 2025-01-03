@@ -1,4 +1,37 @@
-/static/feeds/:name
-  Content-Disposition: attachment; filename=":name"
-/static/feeds/Afterschool+Snack.ics
+
+/static/feeds/afterschool_snack.ics
   Content-Disposition: attachment; filename="Afterschool Snack.ics"
+
+/static/feeds/breakfast_all_grades.ics
+  Content-Disposition: attachment; filename="Breakfast (All Grades).ics"
+
+/static/feeds/breakfast_lunch_access_ctp.ics
+  Content-Disposition: attachment; filename="Breakfast, Lunch (Access, CTP).ics"
+
+/static/feeds/early_learners.ics
+  Content-Disposition: attachment; filename="Early Learners.ics"
+
+/static/feeds/early_learners_creston.ics
+  Content-Disposition: attachment; filename="Early Learners (Creston).ics"
+
+/static/feeds/head_start_creston.ics
+  Content-Disposition: attachment; filename="Head Start (Creston).ics"
+
+/static/feeds/head_start_mecp.ics
+  Content-Disposition: attachment; filename="Head Start (MECP).ics"
+
+/static/feeds/head_start_pre-k.ics
+  Content-Disposition: attachment; filename="Head Start, Pre-K.ics"
+
+/static/feeds/lunch_hs.ics
+  Content-Disposition: attachment; filename="Lunch (HS).ics"
+
+/static/feeds/lunch_k5_k8_ms.ics
+  Content-Disposition: attachment; filename="Lunch (K5, K8, MS).ics"
+
+/static/feeds/mecp.ics
+  Content-Disposition: attachment; filename="MECP.ics"
+
+/static/feeds/neighborhood_house.ics
+  Content-Disposition: attachment; filename="Neighborhood House.ics"
+

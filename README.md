@@ -22,10 +22,8 @@ The feed generation is run:
 
 The site:
 
-- Is served in GitHub pages.
 - Generates a link to a feed if the feed has any fetches in the last 3 months 
   (some menus may be for previous school years).
-- Is fronted by CloudFlare, so custom headers (in `_headers`) are generated
-  to set a Content-Disposition header for the feeds.
+- Is built and served by Netlify, since we need Content-Disposition headers.
 
 For help, post an issue or contact Rob Galanakis, rob.galanakis@gmail.com

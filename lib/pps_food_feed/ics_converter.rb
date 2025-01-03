@@ -17,12 +17,14 @@ class PpsFoodFeed
       groups.each do |menu, csv_files|
         self.create_ical(menu, csv_files)
       end
+      @meta.save
     end
 
     def create_ical(menu_name, csv_files)
       menu = PpsFoodFeed::Menus.get(menu_name)
       cal = Icalendar::Calendar.new
-      cal.prodid = "#{PpsFoodFeed::HOMEPAGE}"
+      cal.prodid = "-//#{menu_name}//#{PpsFoodFeed::HOMEPAGE_HOST} #{PpsFoodFeed::VERSION}//EN"
+      cal.append_custom_property("X-WR-CALNAME", menu_name)
       cal.publish
       csv_files.each do |csv_file|
         _, menu_month = PpsFoodFeed.menu_name_and_month(csv_file)
@@ -43,8 +45,9 @@ class PpsFoodFeed
           end
         end
       end
-      ical_filename = PpsFoodFeed::FEEDS_DIR.join(menu_name + ".ics")
-      File.write(ical_filename, cal.to_ical)
+      ical_filename = self.ical_filename(menu_name)
+      @meta.set(menu_name, "_", :ical_filename, ical_filename)
+      File.write(PpsFoodFeed::FEEDS_DIR.join(ical_filename), cal.to_ical)
       self.logger.info("write_ics", menu: menu_name, events: cal.events.count)
     end
 
@@ -79,6 +82,13 @@ class PpsFoodFeed
 
     def titleize(s)
       return s[0].upcase + s[1..]
+    end
+
+    def ical_filename(menu_name)
+      n = menu_name.downcase
+      n = n.gsub("(", "").gsub(")", "").gsub(", ", "_")
+      n = n.gsub(" ", "_")
+      return n + ".ics"
     end
   end
 end

@@ -17,7 +17,8 @@ require "appydays/loggable"
 class PpsFoodFeed
   VERSION = "0.0.1"
   APPLICATION_NAME = "PPS Food Feed"
-  HOMEPAGE = "https://ppsmenus.net"
+  HOMEPAGE_HOST = "ppsmenus.net"
+  HOMEPAGE = "https://#{HOMEPAGE_HOST}".freeze
   AUTHOR = "rob.galanakis@lithic.tech"
   ROOT_DIR = Pathname(__dir__).parent
   CSV_DIR = ROOT_DIR.join("csvs")

@@ -99,7 +99,8 @@
         <script>
           function handleUrlClick(e) {
             window.clearTimeout(window._ppsStatus)
-            navigator.clipboard.writeText(e.target.innerHTML)
+            const txt = e.target.innerHTML.split('&nbsp;')[0];
+            navigator.clipboard.writeText(txt)
             document.getElementById('status').classList.remove('hidden')
             window._ppsStatus = window.setTimeout(() => {
               document.getElementById('status').classList.add('hidden')

@@ -11,11 +11,12 @@ class PpsFoodFeed
     def run
       @links = []
       meta = PpsFoodFeed::Meta.load
-      meta.each do |name, months|
-        next unless self.recent?(months)
-        escaped_name = URI.encode_www_form_component(name)
-        href = "#{PpsFoodFeed.site_host}/static/feeds/#{escaped_name}.ics"
-        @links << {name:, href:}
+      meta.each do |name, h|
+        next unless self.recent?(h)
+        f = h.fetch("_").fetch("ical_filename")
+        path = "/static/feeds/#{f}"
+        href = "#{PpsFoodFeed.site_host}#{path}"
+        @links << {name:, href:, path:}
       end
       @links.sort_by! { |li| li[:name] }
       gen_index
