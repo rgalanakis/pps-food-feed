@@ -1,12 +1,14 @@
 name: Nightly Build
 on:
   push:
-    branches: [ infrastructure ]
+    branches:
+      - main
+      - infrastructure
   schedule:
     - cron: '0 0 * * *'
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     steps:
