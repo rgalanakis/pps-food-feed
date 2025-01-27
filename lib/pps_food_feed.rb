@@ -60,15 +60,24 @@ class PpsFoodFeed
       Appydays::Loggable.configure_12factor(format: self.log_format, application: APPLICATION_NAME)
     end
 
+    def clean_filename_part(s)
+      r = s.gsub("/", ", ") # Would break pathing
+      r.gsub!(".", "") # Not currently used in menus, but would break us if it were
+      r.gsub!("|", "-") # Not currently used in menus, but would break us if it were
+      return r
+    end
+
     # See +menu_name_and_month+ to get the month and name back.
-    def menu_filename(dir, month, name, ext)
-      name = name.gsub("/", ", ")
-      return dir.join("#{name} - #{month}#{ext}")
+    def menu_filename(dir, month, name, hash, ext)
+      raise "hash must be an md5" unless /^[a-z\d]+$/.match?(hash)
+      n = self.clean_filename_part(name)
+      m = self.clean_filename_part(month)
+      return dir.join("#{n} | #{m} | #{hash}#{ext}")
     end
 
     # See +menu_filename+ to create this name.
-    def menu_name_and_month(p)
-      return File.basename(p, ".*").split(" - ")
+    def parse_menu_name_month_hash(p)
+      return File.basename(p, ".*").split(" | ")
     end
   end
 end

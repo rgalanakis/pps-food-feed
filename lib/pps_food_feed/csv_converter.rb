@@ -16,15 +16,17 @@ class PpsFoodFeed
     def run
       FileUtils.mkdir_p(PpsFoodFeed::CSV_DIR)
       PpsFoodFeed::PDF_DIR.children.each do |pdf|
-        name, month = PpsFoodFeed.menu_name_and_month(pdf)
-        csv_filename = PpsFoodFeed.menu_filename(PpsFoodFeed::CSV_DIR, month, name, ".csv")
+        name, month, hash = PpsFoodFeed.parse_menu_name_month_hash(pdf)
+        csv_filename = PpsFoodFeed.menu_filename(PpsFoodFeed::CSV_DIR, month, name, hash, ".csv")
         next if csv_filename.exist?
-        prompt = PpsFoodFeed::Menus.get(name)
+        menu = PpsFoodFeed::Menus.get(name)
         self.logger.info("analyzing_pdf", name:, month:)
-        resp = self.call_anthropic(pdf, prompt.to_s)
+        resp = self.call_anthropic(pdf, menu.prompt)
         body = resp.to_s
         json_body = JSON.parse(body)
         csv_text = json_body.fetch("content").first.fetch("text")
+        raise "LLM call did not convert to CSV properly.\nPrompt: #{menu.prompt}\nResult: #{json_body}" unless
+          CSV.parse(csv_text).first.first == "month"
         File.write(csv_filename, csv_text)
       end
     end
