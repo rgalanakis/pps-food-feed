@@ -13,7 +13,7 @@ class PpsFoodFeed
     def run
       FileUtils.mkdir_p(PpsFoodFeed::FEEDS_DIR)
       @meta = PpsFoodFeed::Meta.load
-      groups = PpsFoodFeed::CSV_DIR.children.group_by { |f| PpsFoodFeed.menu_name_and_month(f)[0] }
+      groups = PpsFoodFeed::CSV_DIR.children.group_by { |f| PpsFoodFeed.parse_menu_name_month_hash(f)[0] }
       groups.each do |menu, csv_files|
         self.create_ical(menu, csv_files)
       end
@@ -27,7 +27,15 @@ class PpsFoodFeed
       cal.append_custom_property("X-WR-CALNAME", menu_name)
       cal.publish
       csv_files.each do |csv_file|
-        _, menu_month = PpsFoodFeed.menu_name_and_month(csv_file)
+        csv_file = csv_file.to_s
+        _, menu_month, hash = PpsFoodFeed.parse_menu_name_month_hash(csv_file)
+        # Only use the latest CSV for the latest hash.
+        # Do NOT use earlier CSVs since we don't different meals for the same day.
+        if @meta.get(menu_name, menu_month, :latest_hash) != hash
+          self.logger.debug("skipping_obsolete_csv", csv_file:)
+          next
+        end
+        self.logger.debug("parsing_csv_to_ics", csv_file:)
         CSV.foreach(csv_file, headers: true, header_converters: :symbol, converters: :all) do |row|
           row = row.to_h
           d = "#{row[:month]} #{row[:day_of_month]} #{row[:year]}"
