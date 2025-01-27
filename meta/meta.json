@@ -2,23 +2,33 @@
   "Breakfast (All Grades)": {
     "January 2025": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/January%202025/Breakfast-Menu-January-2025.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"22a1efb9e765db1:0\"",
+      "latest_hash": "ea4b5b933"
     },
     "December 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/December%202024/Breakfast-Menu-December-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"e1b5de641440db1:0\"",
+      "latest_hash": "32cbcb95d"
     },
     "November 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/november%202024/Breakfast-Menu-November-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"c2f73387d2adb1:0\"",
+      "latest_hash": "26db37e07"
     },
     "October 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/October%202024/Breakfast-Menu-August-October-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"a0483a9ea10db1:0\"",
+      "latest_hash": "5555d0a10"
     },
     "August-September 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/august-september%202024/Breakfast-Menu-August-September-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"ca9e22f75ef9da1:0\"",
+      "latest_hash": "e7fa416e0"
     },
     "_": {
       "ical_filename": "breakfast_all_grades.ics"
@@ -27,23 +37,33 @@
   "Lunch (K5, K8, MS)": {
     "January 2025": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/January%202025/ES-MS-Lunch-Menu-January-2025.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"c5163277955db1:0\"",
+      "latest_hash": "3a0e265c9"
     },
     "December 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/December%202024/ES-MS-Lunch-Menu-December-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"abae7a631440db1:0\"",
+      "latest_hash": "ce5814436"
     },
     "November 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/november%202024/ES-MS-Lunch-Menu-November-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"d86283ea2bdb1:0\"",
+      "latest_hash": "3409bf849"
     },
     "October 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/October%202024/ES-MS-Lunch-Menu-August-October-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"af74f934a224db1:0\"",
+      "latest_hash": "88880e19d"
     },
     "August-September 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/august-september%202024/ES-MS-Lunch-Menu-August-September-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"486d65aa44f8da1:0\"",
+      "latest_hash": "2ff5a1f22"
     },
     "_": {
       "ical_filename": "lunch_k5_k8_ms.ics"
@@ -52,23 +72,33 @@
   "Lunch (HS)": {
     "January 2025": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/January%202025/HS-Lunch-Menu-January-2025.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"3a1d3c297955db1:0\"",
+      "latest_hash": "ad5305c10"
     },
     "December 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/December%202024/HS-Lunch-Menu-December-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"3e118641440db1:0\"",
+      "latest_hash": "99789c0ff"
     },
     "November 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/november%202024/HS-Lunch-Menu-November-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"e3ed823fa2bdb1:0\"",
+      "latest_hash": "89d5094f2"
     },
     "October 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/October%202024/HS-Lunch-Menu-August-October-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"b7ca327411db1:0\"",
+      "latest_hash": "0406d2862"
     },
     "August-September 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/august-september%202024/HS-Lunch-Menu-August-September-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"92fccf545ff9da1:0\"",
+      "latest_hash": "1de03d53b"
     },
     "_": {
       "ical_filename": "lunch_hs.ics"
@@ -77,23 +107,33 @@
   "Breakfast, Lunch (Access, CTP)": {
     "January 2025": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/January%202025/Access-CTP-Menu-January-2025.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"b932972a7955db1:0\"",
+      "latest_hash": "f674bd5b2"
     },
     "December 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/December%202024/Access-CTP-Menu-December-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"3c7183641440db1:0\"",
+      "latest_hash": "863656db2"
     },
     "November 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/november%202024/Access-CTP-Menu-November-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"8be22840a2bdb1:0\"",
+      "latest_hash": "b885cdbeb"
     },
     "October 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/October%202024/Access-CTP-Menu-August-October-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"67635235a224db1:0\"",
+      "latest_hash": "0a9ca9797"
     },
     "August-September 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/august-september%202024/Access-CTP-Menu-August-September-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"abce1cc60f9da1:0\"",
+      "latest_hash": "a59a2bc91"
     },
     "_": {
       "ical_filename": "breakfast_lunch_access_ctp.ics"
@@ -102,15 +142,21 @@
   "Early Learners": {
     "January 2025": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/January%202025/Early-Learners-Menu-January-2025.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"ae787bae765db1:0\"",
+      "latest_hash": "2a6f2ecf6"
     },
     "December 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/December%202024/Early-Learners-Menu-December-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"f35e8b631440db1:0\"",
+      "latest_hash": "022afc8c1"
     },
     "November 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/november%202024/Head-Start-Menu-November-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"bb62a2361d2bdb1:0\"",
+      "latest_hash": "82acef56a"
     },
     "_": {
       "ical_filename": "early_learners.ics"
@@ -119,15 +165,21 @@
   "Early Learners (Creston)": {
     "January 2025": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/January%202025/Early-Learners-Creston-Menu-January-2025.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"9ac9cc267955db1:0\"",
+      "latest_hash": "5a788c8db"
     },
     "December 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/December%202024/Early-Learners-Creston-Menu-December-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"565e73631440db1:0\"",
+      "latest_hash": "4c168a0bb"
     },
     "November 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/november%202024/Head-Start-Creston-Menu-November-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"7bda6361d2bdb1:0\"",
+      "latest_hash": "42e1b5553"
     },
     "_": {
       "ical_filename": "early_learners_creston.ics"
@@ -136,15 +188,21 @@
   "MECP": {
     "January 2025": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/January%202025/MECP-Head-Start-Menu-January-2025.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"1d4e6b9e765db1:0\"",
+      "latest_hash": "a2a487ebe"
     },
     "December 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/December%202024/MECP-Head-Start-Menu-December-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"ff6643641440db1:0\"",
+      "latest_hash": "8d563da69"
     },
     "November 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/november%202024/MECP-Head-Start-Menu-November-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"f8f275bf6e30db1:0\"",
+      "latest_hash": "718f7f82f"
     },
     "_": {
       "ical_filename": "mecp.ics"
@@ -153,15 +211,21 @@
   "Neighborhood House": {
     "January 2025": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/January%202025/Head-Start-Neighborhood%20House-Menu-January-2025.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"927662bae765db1:0\"",
+      "latest_hash": "9d308f418"
     },
     "December 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/December%202024/Head-Start-Neighborhood%20House-Menu-December-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"ab4ee1631440db1:0\"",
+      "latest_hash": "6d0c2a163"
     },
     "November 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/november%202024/Head-Start-Neighborhood%20House-Menu-November-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"d0fff3351d2bdb1:0\"",
+      "latest_hash": "85c26d3d6"
     },
     "_": {
       "ical_filename": "neighborhood_house.ics"
@@ -170,19 +234,27 @@
   "Afterschool Snack": {
     "January 2025": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/January%202025/Afterschool-Snack-Menu-January-2025.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"5fd0692a7955db1:0\"",
+      "latest_hash": "64946ad74"
     },
     "December 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/December%202024/Afterschool-Snack-Menu-December-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"e544bd641440db1:0\"",
+      "latest_hash": "6c9f1b7c8"
     },
     "November 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/november%202024/Afterschool-Snack-Menu-November-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"79f483d7a2bdb1:0\"",
+      "latest_hash": "def22e530"
     },
     "October 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/october%202024/Afterschool-Snack-Menu-October-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"388dc1cadf11db1:0\"",
+      "latest_hash": "4283586fa"
     },
     "_": {
       "ical_filename": "afterschool_snack.ics"
@@ -191,11 +263,15 @@
   "Head Start, Pre-K": {
     "October 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/october%202024/Head-Start-Menu-October-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"2c399385725db1:0\"",
+      "latest_hash": "14a161a47"
     },
     "August-September 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/august-september%202024/Head-Start-Menu-September-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"5b5c17e045f8da1:0\"",
+      "latest_hash": "9d6ee7f83"
     },
     "_": {
       "ical_filename": "head_start_pre-k.ics"
@@ -204,11 +280,15 @@
   "Head Start (Creston)": {
     "October 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/october%202024/Head-Start-Creston-Menu-October-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"7d89baa6a224db1:0\"",
+      "latest_hash": "03e464f38"
     },
     "August-September 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/august-september%202024/Head-Start-Creston-Menu-September-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"19f515a093ffda1:0\"",
+      "latest_hash": "7b82dfe87"
     },
     "_": {
       "ical_filename": "head_start_creston.ics"
@@ -217,11 +297,15 @@
   "Head Start (MECP)": {
     "October 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/october%202024/MECP-Head-Start-Menu-October-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"ff88b8a7a224db1:0\"",
+      "latest_hash": "b8a6ab9df"
     },
     "August-September 2024": {
       "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/august-september%202024/MECP-Head-Start-Menu-September-2024.pdf",
-      "fetched_at": "2025-01-02 13:01:30 -0800"
+      "fetched_at": "2025-01-27 14:02:41 -0800",
+      "etag": "W/\"f9c2cb9f93ffda1:0\"",
+      "latest_hash": "67c3f4d07"
     },
     "_": {
       "ical_filename": "head_start_mecp.ics"
