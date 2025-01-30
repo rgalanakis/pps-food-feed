@@ -63,7 +63,7 @@ class PpsFoodFeed
         meta.set(menu_name, menu_month, :fetched_at, now)
         meta.set(menu_name, menu_month, :etag, pdf_resp_etag)
         meta.set(menu_name, menu_month, :latest_hash, pdf_hash)
-        File.write(pdf_filename, pdf_bytes)
+        File.binwrite(pdf_filename, pdf_bytes)
         pdf_im = Magick::Image.read(pdf_filename)
         self.logger.info("converting_to_png", png_filename:)
         pdf_im.first.write(png_filename)
