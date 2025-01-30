@@ -3,7 +3,6 @@
 require "fileutils"
 require "httpx"
 require "nokogiri"
-require "rmagick"
 
 require_relative "meta"
 
@@ -18,7 +17,6 @@ class PpsFoodFeed
     def run
       meta = PpsFoodFeed::Meta.load
       FileUtils.mkdir_p(PpsFoodFeed::PDF_DIR)
-      FileUtils.mkdir_p(PpsFoodFeed::PNG_DIR)
       now = Time.now
       menu_resp = HTTPX.get(MENU_URL).raise_for_status
       menu_html = menu_resp.to_s
@@ -52,27 +50,22 @@ class PpsFoodFeed
         # Note that the etag may change, even when the content is the same (it's just up to Cloudflare),
         # so we MUST hash the file contents to get a persistent 'id' of the PDF.
         pdf_hash = Digest::SHA256.hexdigest(pdf_bytes)[..8]
-        pdf_filename = self.pdf_filename(menu_month, menu_name, pdf_hash)
+        pdf_filename = self.pdf_filename(menu_month, menu_name, pdf_hash).to_s
         if File.exist?(pdf_filename)
           self.logger.debug("menu_pdf_body_unchanged", menu_url:, pdf_hash:)
           next
         end
 
-        png_filename = self.png_filename(menu_month, menu_name, pdf_hash)
         meta.set(menu_name, menu_month, :url, menu_url)
         meta.set(menu_name, menu_month, :fetched_at, now)
         meta.set(menu_name, menu_month, :etag, pdf_resp_etag)
         meta.set(menu_name, menu_month, :latest_hash, pdf_hash)
-        File.write(pdf_filename, pdf_bytes)
-        pdf_im = Magick::Image.read(pdf_filename)
-        self.logger.info("converting_to_png", png_filename:)
-        pdf_im.first.write(png_filename)
+        File.binwrite(pdf_filename, pdf_bytes)
       end
       meta.save
       return menu_resp
     end
 
     def pdf_filename(month, name, hash) = PpsFoodFeed.menu_filename(PpsFoodFeed::PDF_DIR, month, name, hash, ".pdf")
-    def png_filename(month, name, hash) = PpsFoodFeed.menu_filename(PpsFoodFeed::PNG_DIR, month, name, hash, ".png")
   end
 end

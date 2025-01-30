@@ -26,7 +26,6 @@ class PpsFoodFeed
   FEEDS_DIR = STATIC_DIR.join("feeds")
   META_DIR = ROOT_DIR.join("meta")
   PDF_DIR = ROOT_DIR.join("pdfs")
-  PNG_DIR = ROOT_DIR.join("pngs")
 
   include Appydays::Configurable
   include Appydays::Loggable
