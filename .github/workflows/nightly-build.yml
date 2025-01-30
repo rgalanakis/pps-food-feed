@@ -8,10 +8,13 @@ on:
     - cron: '0 0 * * *'
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     steps:
+      - name: Install dependencies
+        run: |
+          sudo apt-get -yqq install libmagickwand-dev
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
