@@ -9,7 +9,7 @@ so there is no automated system available for menus.
 The .ics generation process:
 
 - Parses https://www.pps.net/Page/214 to find menu PDFs
-- Saves them to the repo, along with a PNG to help change tracking
+- Saves them to the repo
 - Parses the PDF using Anthropic LLM into a CSV.
 - Converts the CSV into iCalendar feeds, one for each menu found on the site.
 - Each stage (pdf download, LLM parsing) is cached in the repo.

@@ -26,13 +26,11 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.1-arm64-darwin)
       racc (~> 1.4)
-    observer (0.1.2)
     ostruct (0.6.1)
     parallel (1.26.3)
     parser (3.3.4.2)
       ast (~> 2.4.1)
       racc
-    pkg-config (1.5.8)
     pry (0.15.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -41,9 +39,6 @@ GEM
     regexp_parser (2.9.2)
     rexml (3.3.5)
       strscan
-    rmagick (6.0.1)
-      observer (~> 0.1)
-      pkg-config (~> 1.4)
     rubocop (1.65.1)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
@@ -75,7 +70,6 @@ DEPENDENCIES
   icalendar
   nokogiri
   pry
-  rmagick
   rubocop
 
 RUBY VERSION
