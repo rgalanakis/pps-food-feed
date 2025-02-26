@@ -38,6 +38,12 @@
       "fetched_at": "2025-01-30 06:43:19 +0000",
       "etag": "W/\"fc23a9b6d271db1:0\"",
       "latest_hash": "d0e3731d7"
+    },
+    "March 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/March%202025/Breakfast-Menu-March-2025.pdf",
+      "fetched_at": "2025-02-26 00:07:47 +0000",
+      "etag": "W/\"e0ee6795c087db1:0\"",
+      "latest_hash": "650c29911"
     }
   },
   "Lunch (K5, K8, MS)": {
@@ -79,6 +85,12 @@
       "fetched_at": "2025-01-30 06:43:19 +0000",
       "etag": "W/\"82d60b7d271db1:0\"",
       "latest_hash": "8b187f160"
+    },
+    "March 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/March%202025/ES-MS-Lunch-Menu-March-2025.pdf",
+      "fetched_at": "2025-02-26 00:07:47 +0000",
+      "etag": "W/\"4168f93c087db1:0\"",
+      "latest_hash": "341d42ca3"
     }
   },
   "Lunch (HS)": {
@@ -120,6 +132,12 @@
       "fetched_at": "2025-01-30 06:43:19 +0000",
       "etag": "W/\"a32216b7d271db1:0\"",
       "latest_hash": "730d6665c"
+    },
+    "March 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/March%202025/HS-Lunch-Menu-March-2025.pdf",
+      "fetched_at": "2025-02-26 00:07:47 +0000",
+      "etag": "W/\"99da3b94c087db1:0\"",
+      "latest_hash": "7e5988169"
     }
   },
   "Breakfast, Lunch (Access, CTP)": {
@@ -184,6 +202,12 @@
       "fetched_at": "2025-02-15 00:07:36 +0000",
       "etag": "W/\"edf3e9da97fdb1:0\"",
       "latest_hash": "687704cca"
+    },
+    "March 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/March%202025/Early-Learners-Menu-March-2025.pdf",
+      "fetched_at": "2025-02-26 00:07:47 +0000",
+      "etag": "W/\"ff27de93c087db1:0\"",
+      "latest_hash": "5af418d01"
     }
   },
   "Early Learners (Creston)": {
@@ -213,6 +237,12 @@
       "fetched_at": "2025-01-30 06:43:19 +0000",
       "etag": "W/\"115eb5b6d271db1:0\"",
       "latest_hash": "d0c5c4e48"
+    },
+    "March 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/March%202025/Early-Learners-Creston-Menu-March-2025.pdf",
+      "fetched_at": "2025-02-26 00:07:47 +0000",
+      "etag": "W/\"5dd9f193c087db1:0\"",
+      "latest_hash": "fb1b6cb4f"
     }
   },
   "MECP": {
@@ -242,6 +272,12 @@
       "fetched_at": "2025-02-14 00:08:44 +0000",
       "etag": "W/\"aa5d48b1aa7cdb1:0\"",
       "latest_hash": "2c0a76dea"
+    },
+    "March 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/March%202025/MECP-Head-Start-Menu-March-2025.pdf",
+      "fetched_at": "2025-02-26 00:07:47 +0000",
+      "etag": "W/\"ba46ab94c087db1:0\"",
+      "latest_hash": "5c77e78d8"
     }
   },
   "Neighborhood House": {
@@ -271,6 +307,12 @@
       "fetched_at": "2025-02-14 00:08:44 +0000",
       "etag": "W/\"8cd32b1aa7cdb1:0\"",
       "latest_hash": "2d86d8e94"
+    },
+    "March 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/March%202025/Neighborhood%20House-Menu-March-2025.pdf",
+      "fetched_at": "2025-02-26 00:07:47 +0000",
+      "etag": "W/\"db1fa494c087db1:0\"",
+      "latest_hash": "75905bbbc"
     }
   },
   "Afterschool Snack": {
@@ -306,6 +348,12 @@
       "fetched_at": "2025-01-30 06:43:19 +0000",
       "etag": "W/\"451c0b7d271db1:0\"",
       "latest_hash": "340368a7b"
+    },
+    "March 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/March%202025/Afterschool-Snack-Menu-March-2025.pdf",
+      "fetched_at": "2025-02-26 00:07:47 +0000",
+      "etag": "W/\"352f3b95c087db1:0\"",
+      "latest_hash": "54a23bbe4"
     }
   },
   "Head Start, Pre-K": {
@@ -368,6 +416,12 @@
     },
     "_": {
       "ical_filename": "access_ctp_breakfast_lunch.ics"
+    },
+    "March 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2024-25/March%202025/Access-CTP-Menu-March-2025.pdf",
+      "fetched_at": "2025-02-26 00:07:47 +0000",
+      "etag": "W/\"e85af594c087db1:0\"",
+      "latest_hash": "64aed8eb2"
     }
   }
 }
