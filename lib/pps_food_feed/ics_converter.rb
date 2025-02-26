@@ -38,9 +38,15 @@ class PpsFoodFeed
         self.logger.debug("parsing_csv_to_ics", csv_file:)
         CSV.foreach(csv_file, headers: true, header_converters: :symbol, converters: :all) do |row|
           row = row.to_h
-          d = "#{row[:month]} #{row[:day_of_month]} #{row[:year]}"
-          d = Date.parse(d)
-          d = Icalendar::Values::Date.new(d)
+          # Make sure the LLM didn't emit invalid headers.
+          month = row.fetch(:month)
+          year = row.fetch(:year)
+          # Sometimes the LLM uses day_of_month as asked, sometimes day, try both.
+          day_of_month = row[:day_of_month] || row[:day] or
+            raise KeyError, "row must contain :day_of_month or :day: #{row}"
+          dstr = "#{month} #{day_of_month} #{year}"
+          rubydate = Date.parse(dstr)
+          d = Icalendar::Values::Date.new(rubydate)
           lastmod = Time.parse(@meta.get(menu_name, menu_month, :fetched_at))
           cal.event do |e|
             e.uid = self.uid(menu_name, menu_month, row)
