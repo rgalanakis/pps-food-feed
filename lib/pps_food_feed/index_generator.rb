@@ -11,9 +11,10 @@ class PpsFoodFeed
     def run
       @links = []
       meta = PpsFoodFeed::Meta.load
-      meta.each do |name, h|
-        next unless self.recent?(h)
-        f = h.fetch("_").fetch("ical_filename")
+      meta.each do |name, months|
+        ical_entry = months.delete("_")
+        next unless self.recent?(months)
+        f = ical_entry.fetch("ical_filename")
         path = "/static/feeds/#{f}"
         href = "#{PpsFoodFeed.site_host}#{path}"
         @links << {name:, href:, path:}
