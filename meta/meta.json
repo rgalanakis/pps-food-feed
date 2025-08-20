@@ -62,6 +62,12 @@
       "fetched_at": "2025-05-19 00:09:15 +0000",
       "etag": "W/\"515b881bdc5db1:0\"",
       "latest_hash": "27c28ed42"
+    },
+    "August-September 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/august-september/Breakfast-Menu-August-September-2025.pdf",
+      "fetched_at": "2025-08-20 00:08:24 +0000",
+      "etag": "W/\"e07c2cde4311dc1:0\"",
+      "latest_hash": "6bf794aed"
     }
   },
   "Lunch (K5, K8, MS)": {
@@ -127,6 +133,12 @@
       "fetched_at": "2025-05-19 00:09:15 +0000",
       "etag": "W/\"6b96680bdc5db1:0\"",
       "latest_hash": "880d3a121"
+    },
+    "August-September 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/august-september/ES-MS-Lunch-Menu-August-September-2025.pdf",
+      "fetched_at": "2025-08-20 00:08:24 +0000",
+      "etag": "W/\"ab478de4311dc1:0\"",
+      "latest_hash": "6b5a9ba4c"
     }
   },
   "Lunch (HS)": {
@@ -192,6 +204,12 @@
       "fetched_at": "2025-05-19 00:09:15 +0000",
       "etag": "W/\"3f458e80bdc5db1:0\"",
       "latest_hash": "d7c44b70a"
+    },
+    "August-September 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/august-september/HS-Lunch-Menu-August-September-2025.pdf",
+      "fetched_at": "2025-08-20 00:08:24 +0000",
+      "etag": "W/\"1edbf9884411dc1:0\"",
+      "latest_hash": "33634ac88"
     }
   },
   "Breakfast, Lunch (Access, CTP)": {
