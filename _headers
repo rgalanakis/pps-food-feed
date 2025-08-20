@@ -1,28 +1,10 @@
 
-/static/feeds/access_ctp_breakfast_lunch.ics
-  Content-Disposition: attachment; filename="PPS Menu - Access, CTP (Breakfast, Lunch).ics"
-
-/static/feeds/afterschool_snack.ics
-  Content-Disposition: attachment; filename="PPS Menu - Afterschool Snack.ics"
-
 /static/feeds/breakfast_all_grades.ics
   Content-Disposition: attachment; filename="PPS Menu - Breakfast (All Grades).ics"
-
-/static/feeds/early_learners.ics
-  Content-Disposition: attachment; filename="PPS Menu - Early Learners.ics"
-
-/static/feeds/early_learners_creston.ics
-  Content-Disposition: attachment; filename="PPS Menu - Early Learners (Creston).ics"
 
 /static/feeds/lunch_hs.ics
   Content-Disposition: attachment; filename="PPS Menu - Lunch (HS).ics"
 
 /static/feeds/lunch_k5_k8_ms.ics
   Content-Disposition: attachment; filename="PPS Menu - Lunch (K5, K8, MS).ics"
-
-/static/feeds/mecp.ics
-  Content-Disposition: attachment; filename="PPS Menu - MECP.ics"
-
-/static/feeds/neighborhood_house.ics
-  Content-Disposition: attachment; filename="PPS Menu - Neighborhood House.ics"
 
