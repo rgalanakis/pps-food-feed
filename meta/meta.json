@@ -245,6 +245,12 @@
     },
     "_": {
       "ical_filename": "breakfast_lunch_access_ctp.ics"
+    },
+    "August-September 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/august-september/Access-CTP-Menu-August-September-2025.pdf",
+      "fetched_at": "2025-08-29 00:08:12 +0000",
+      "etag": "W/\"d2a883fee15dc1:0\"",
+      "latest_hash": "666090c23"
     }
   },
   "Early Learners": {
@@ -357,6 +363,12 @@
       "fetched_at": "2025-05-19 00:09:15 +0000",
       "etag": "W/\"74b54d81bdc5db1:0\"",
       "latest_hash": "fa61cdb03"
+    },
+    "August-September 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/august-september/EL-Creston-Menu-September-2025.pdf",
+      "fetched_at": "2025-08-29 00:08:12 +0000",
+      "etag": "W/\"2035893fee15dc1:0\"",
+      "latest_hash": "f8a0548d4"
     }
   },
   "MECP": {
@@ -410,6 +422,12 @@
       "fetched_at": "2025-05-19 00:09:15 +0000",
       "etag": "W/\"87589f80bdc5db1:0\"",
       "latest_hash": "2406cef61"
+    },
+    "August-September 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/august-september/MECP-Head-Start-Menu-September-2025.pdf",
+      "fetched_at": "2025-08-29 00:08:12 +0000",
+      "etag": "W/\"83e19b84716dc1:0\"",
+      "latest_hash": "7c3545f87"
     }
   },
   "Neighborhood House": {
@@ -463,6 +481,12 @@
       "fetched_at": "2025-05-19 00:09:15 +0000",
       "etag": "W/\"69661780bdc5db1:0\"",
       "latest_hash": "b48e26376"
+    },
+    "August-September 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/august-september/NH-Menu-September-2025.pdf",
+      "fetched_at": "2025-08-29 00:08:12 +0000",
+      "etag": "W/\"8486af84716dc1:0\"",
+      "latest_hash": "7c3afb606"
     }
   },
   "Afterschool Snack": {
