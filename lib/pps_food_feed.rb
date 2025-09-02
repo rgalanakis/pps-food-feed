@@ -41,6 +41,11 @@ class PpsFoodFeed
     setting :anthropic_api_key,
             "unsetkey",
             key: "ANTHROPIC_API_KEY"
+    setting :skip_fetch, false
+    setting :skip_csv, false
+    setting :skip_ics, false
+    setting :skip_index, false
+
     # Modify this if serving from not the homepage.
     setting :site_host,
             HOMEPAGE,
@@ -49,10 +54,10 @@ class PpsFoodFeed
 
   class << self
     def run
-      MenuFetcher.new.run
-      CsvConverter.new.run
-      IcsConverter.new.run
-      IndexGenerator.new.run
+      MenuFetcher.new.run unless self.skip_fetch
+      CsvConverter.new.run unless self.skip_csv
+      IcsConverter.new.run unless self.skip_ics
+      IndexGenerator.new.run unless self.skip_index
     end
 
     def load_app
