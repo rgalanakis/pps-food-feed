@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "erb"
+require "rqrcode"
 
 class PpsFoodFeed
   class IndexGenerator
@@ -15,10 +16,25 @@ class PpsFoodFeed
         ical_entry = months.delete("_")
         next unless self.recent?(months)
         f = ical_entry.fetch("ical_filename")
+        slug = f
         path = "/static/feeds/#{f}"
-        inline_path = "/static/feeds/inline/#{f}"
         href = "#{PpsFoodFeed.site_host}#{path}"
-        @links << {name:, href:, path:, inline_path:}
+        inline_svg = RQRCode::QRCode.new(href).as_svg(viewbox: true)
+        webcal_href = href.gsub(/^(https|http):/, "webcal:")
+        webcal_svg = RQRCode::QRCode.new(webcal_href).as_svg(viewbox: true)
+        google_href = "https://calendar.google.com/calendar/u/0/r?cid=#{URI.encode_uri_component(webcal_href)}"
+        google_svg = RQRCode::QRCode.new(google_href).as_svg(viewbox: true)
+        @links << {
+          name:,
+          slug:,
+          path:,
+          inline_href: href,
+          inline_svg:,
+          google_href:,
+          google_svg:,
+          webcal_href:,
+          webcal_svg:,
+        }
       end
       @links.sort_by! { |li| li[:name] }
       gen_index

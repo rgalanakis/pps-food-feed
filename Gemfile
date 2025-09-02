@@ -11,6 +11,7 @@ group :build do
   gem "httpx"
   gem "icalendar"
   gem "nokogiri"
+  gem "rqrcode", "~> 3.0"
 end
 
 group :nonproduction do
