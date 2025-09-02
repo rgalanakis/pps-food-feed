@@ -26,4 +26,30 @@ The site:
   (some menus may be for previous school years).
 - Is built and served by Netlify, since we need Content-Disposition headers.
 
+### Configuration
+
+Check out `pps_food_feed.rb` for current configuration options.
+
+- `LOG_LEVEL=debug`: Default app log level. Defaults to print all output.
+- `LOG_FORMAT=json_trunc`: Log format. Defaults to JSON.
+- `ANTHROPIC_API_KEY`: API key for Anthropic.
+- `PPSFOODFEED_SKIP_FETCH=false`: Onlu useful during local development. Skip this part of the build process.
+- `PPSFOODFEED_SKIP_CSV=false`: Onlu useful during local development. Skip this part of the build process.
+- `PPSFOODFEED_SKIP_ICS=false`: Onlu useful during local development. Skip this part of the build process.
+- `PPSFOODFEED_SKIP_INDEX=false`: Onlu useful during local development. Skip this part of the build process.
+- `SITE_HOST=https://ppsmenus.net`: Only modify if self-hosting.
+
+### Development
+
+Set environment variables for add a `.env.development.local` file to locally override configuration options.
+
+Check out the `Makefile`, it is the entrypoint for everything. You may need to add support for your OS.
+
+```sh
+$ make dev-install
+$ make dev
+```
+
+# Contact
+
 For help, post an issue or contact Rob Galanakis, rob.galanakis@gmail.com
