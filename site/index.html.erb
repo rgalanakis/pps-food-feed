@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
   <meta charset="utf-8">
-  <title>PPS Menu Calendar Feed</title>
+  <title>PPS Menu Calendar Feeds</title>
   <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pelinoleg/CSSformalize@master/css/css-formalize.min.css">
@@ -40,6 +40,27 @@
           display: flex;
           flex-direction: column;
           align-items: center;
+      }
+
+      .printroot {
+          display: none;
+      }
+
+      @media print {
+          .root {
+              display: none;
+          }
+          .printroot {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+          }
+          h1 {
+              font-size: 30pt;
+          }
+          h2 {
+              font-size: 18pt;
+          }
       }
 
       .chrome {
@@ -172,7 +193,7 @@
       <div class="pagehead">
         <div class="title">
           <img class="logo" width="54" height="54" src="/static/ui/pps_district_logo-01.png" alt="Portland Public Schools">
-          <h1>PPS Food Menu Calendars</h1>
+          <h1>PPS Menu Calendar Feeds</h1>
         </div>
         <p class="subhead">
           Sync the PPS food menus to your calendar app.
@@ -182,9 +203,9 @@
           <br />See the bottom of the page for instructions to add manually.
         </p>
       </div>
-      <ul class="toc">
+      <% unless limited %><ul class="toc">
         <% links.each do |link| %><li><a href="#<%= link[:slug] %>"><%= link[:name] %></a></li>
-        <% end %></ul>
+        <% end %></ul><% end %>
       <% links.each do |link| %>
       <hr />
       <div class="cal-group">
@@ -221,7 +242,7 @@
       <hr />
       <div class="help">
         <p class="subhead">
-          This is <strong>not</strong> an official PPS service.
+          <strong><a href="<%= homepage %>"><%= homepage %></a></strong> is <strong>not</strong> an official PPS service.
           Email <a href="mailto://<%= author %> %>"><%= author %></a> to report any issues.
         </p>
         <p class="subhead">
@@ -229,6 +250,51 @@
           <a href="https://github.com/rgalanakis/pps-food-feed">github.com/rgalanakis/pps-food-feed</a>.
         </p>
       </div>
+      <hr />
+      <% unless limited %><div class="help">
+        <p><a href="<%= k8_link %>">View a printable version of this page with Elementary/Middle/K-8 School menus.</a></p>
+        <p><a href="<%= hs_link %>">View a printable version of this page with High School menus.</a></p>
+      </div><% end %>
+    </div>
+  </div>
+</div>
+<div class="printroot">
+  <div class="chrome">
+    <div class="content">
+      <div class="pagehead">
+        <div class="title">
+          <img class="logo" width="54" height="54" src="/static/ui/pps_district_logo-01.png" alt="Portland Public Schools">
+          <h1>PPS Menu Calendar Feeds</h1>
+        </div>
+        <p class="subhead">
+          Scan the QR code to sync the PPS food menus to your calendar.
+        </p>
+        <p class="subhead">
+          Visit <strong><%= homepage %></strong> if you&rsquo;re having trouble.
+        </p>
+      </div>
+      <% links.each do |link| %>
+        <div class="cal-group">
+          <a id="<%= link[:slug] %>"></a>
+          <h2><%= link[:name] %></h2>
+          <div class="cal-add-row">
+            <div class="cal-add-group">
+              <img src="/static/ui/gcalendar.png" alt="Add to Google Calendar" />
+              <strong>Google Calendar</strong>
+              <div class="qrcode"><%= link[:google_svg] %></div>
+            </div>
+            <div class="cal-add-group">
+              <img src="/static/ui/ical.png" alt="Add to Apple or Outlook" />
+              <strong>Apple/Outlook</strong>
+              <div class="qrcode"><%= link[:webcal_svg] %></div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+      <p class="subhead">
+        <strong><%= homepage %></strong> is <strong>not</strong> an official PPS service.
+        Visit the website for more information.
+      </p>
     </div>
   </div>
 </div>

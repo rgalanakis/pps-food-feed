@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "erb"
+require "ostruct"
 require "rqrcode"
 
 class PpsFoodFeed
@@ -34,19 +35,25 @@ class PpsFoodFeed
           google_svg:,
           webcal_href:,
           webcal_svg:,
+          k8: ["Breakfast (All Grades)", "Lunch (K5, K8, MS)"].include?(name),
+          hs: ["Breakfast (All Grades)", "Lunch (HS)"].include?(name),
         }
       end
       @links.sort_by! { |li| li[:name] }
-      gen_index
+      gen_html
       gen_netlify_config
     end
 
-    def gen_index
-      author = PpsFoodFeed::AUTHOR
-      homepage = PpsFoodFeed::HOMEPAGE
-      links = @links
-      t = ERB.new(File.read(PpsFoodFeed::ROOT_DIR.join("site", "index.html.erb")))
-      File.write(PpsFoodFeed::ROOT_DIR.join("index.html"), t.result(binding))
+    def gen_html
+      vars = {
+        author: PpsFoodFeed::AUTHOR,
+        homepage: PpsFoodFeed::HOMEPAGE,
+        k8_link: "/k8.html",
+        hs_link: "/hs.html",
+      }
+      render_and_write("index.html.erb", "index.html", **vars, links: @links)
+      render_and_write("index.html.erb", "k8.html", **vars, limited: true, links: @links.select { |li| li[:k8] })
+      render_and_write("index.html.erb", "hs.html", **vars, limited: true, links: @links.select { |li| li[:hs] })
     end
 
     def recent?(months)
@@ -59,14 +66,14 @@ class PpsFoodFeed
     end
 
     def gen_netlify_config
-      render_and_write("headers.erb", "_headers")
-      render_and_write("redirects.erb", "_redirects")
+      render_and_write("headers.erb", "_headers", links: @links)
+      render_and_write("redirects.erb", "_redirects", links: @links)
     end
 
-    def render_and_write(erb, path)
-      links = @links
+    def render_and_write(erb, path, **vars)
+      ctx = OpenStruct.new(vars)
       t = ERB.new(File.read(PpsFoodFeed::ROOT_DIR.join("site", erb)))
-      html = t.result(binding)
+      html = t.result(ctx.instance_eval { binding })
       html.strip!
       html << "\n"
       File.write(PpsFoodFeed::ROOT_DIR.join(path), html)
