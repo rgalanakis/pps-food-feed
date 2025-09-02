@@ -177,9 +177,8 @@
 </head>
 <body>
 <script>
-  function handleUrlClick(e) {
+  function handleUrlClick(txt) {
     window.clearTimeout(window._ppsStatus)
-    const txt = e.target.innerHTML.split('&nbsp;')[0];
     navigator.clipboard.writeText(txt)
     document.getElementById('status').classList.remove('hidden')
     window._ppsStatus = window.setTimeout(() => {
@@ -223,7 +222,7 @@
             <div class="qrcode"><%= link[:webcal_svg] %></div>
           </div>
         </div>
-        <button class="copyable-menu-link" onclick="handleUrlClick(event)">Copy ICS file link&nbsp;📋</button>
+        <button class="copyable-menu-link" onclick="handleUrlClick('<%= link[:inline_href] %>')">Copy ICS link&nbsp;📋</button>
       </div>
       <% end %>
       <p id="status" class="subhead status hidden">Copied to clipboard!</p>
