@@ -16,12 +16,13 @@ class PpsFoodFeed
         next unless self.recent?(months)
         f = ical_entry.fetch("ical_filename")
         path = "/static/feeds/#{f}"
+        inline_path = "/static/feeds/inline/#{f}"
         href = "#{PpsFoodFeed.site_host}#{path}"
-        @links << {name:, href:, path:}
+        @links << {name:, href:, path:, inline_path:}
       end
       @links.sort_by! { |li| li[:name] }
       gen_index
-      gen_headers
+      gen_netlify_config
     end
 
     def gen_index
@@ -41,10 +42,18 @@ class PpsFoodFeed
       return false
     end
 
-    def gen_headers
+    def gen_netlify_config
+      render_and_write("headers.erb", "_headers")
+      render_and_write("redirects.erb", "_redirects")
+    end
+
+    def render_and_write(erb, path)
       links = @links
-      t = ERB.new(File.read(PpsFoodFeed::ROOT_DIR.join("site", "headers.erb")))
-      File.write(PpsFoodFeed::ROOT_DIR.join("_headers"), t.result(binding))
+      t = ERB.new(File.read(PpsFoodFeed::ROOT_DIR.join("site", erb)))
+      html = t.result(binding)
+      html.strip!
+      html << "\n"
+      File.write(PpsFoodFeed::ROOT_DIR.join(path), html)
     end
   end
 end

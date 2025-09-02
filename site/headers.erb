@@ -1,4 +1,8 @@
-<% links.each do |link| %>
-<%= link[:path] %>
+<% links.each do |link| %><%= link[:path] %>
+  Content-Type: text/calendar
   Content-Disposition: attachment; filename="PPS Menu - <%= link[:name] %>.ics"
+<%= link[:inline_path] %>
+  Content-Type: text/calendar
+  Content-Disposition: inline
+
 <% end %>
