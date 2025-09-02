@@ -213,12 +213,12 @@
         <div class="cal-add-row">
           <div class="cal-add-group">
             <img src="/static/ui/gcalendar.png" alt="Add to Google Calendar" />
-            <a href=<%= link[:google_href] %>>Google Calendar</a>
+            <a href="<%= link[:google_href] %>" target="_blank">Google Calendar</a>
             <div class="qrcode"><%= link[:google_svg] %></div>
           </div>
           <div class="cal-add-group">
             <img src="/static/ui/ical.png" alt="Add to Apple or Outlook" />
-            <a href=<%= link[:webcal_href] %>>Apple/Outlook</a>
+            <a href="<%= link[:webcal_href] %>">Apple/Outlook</a>
             <div class="qrcode"><%= link[:webcal_svg] %></div>
           </div>
         </div>
