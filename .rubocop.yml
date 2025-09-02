@@ -104,6 +104,8 @@ Style/NumericPredicate:
   AllowedMethods: ['where']
   Exclude:
     - 'db/migrations/*'
+Style/OpenStructUse:
+  Enabled: false
 Style/RedundantReturn:
   Enabled: false
 Style/RedundantSelf:
