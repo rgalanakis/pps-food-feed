@@ -23,6 +23,7 @@ class PpsFoodFeed
         inline_svg = RQRCode::QRCode.new(href).as_svg(viewbox: true)
         webcal_href = href.gsub(/^(https|http):/, "webcal:")
         webcal_svg = RQRCode::QRCode.new(webcal_href).as_svg(viewbox: true)
+        # See https://til.simonwillison.net/ics/google-calendar-ics-subscribe-link
         google_href = "https://calendar.google.com/calendar/u/0/r?cid=#{URI.encode_uri_component(webcal_href)}"
         google_svg = RQRCode::QRCode.new(google_href).as_svg(viewbox: true)
         @links << {
