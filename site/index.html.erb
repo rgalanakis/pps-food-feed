@@ -7,10 +7,18 @@
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pelinoleg/CSSformalize@master/css/css-formalize.min.css">
   <style>
+      html { scroll-behavior: smooth; }
+
       /* See https://www.cssformalize.com/generate.html */
       :root {
           --cform-text-color: rgba(0, 0, 0, 1);
           --cform-accent: rgba(0, 0, 0, 1);
+          --spacing: 8px;
+          --grey: #dedede;
+      }
+
+      p, h1, h2, h3, h4, h5, h6 {
+          margin: 0;
       }
 
       body {
@@ -19,33 +27,53 @@
           font: 16px/24px Helvetica Neue, Arial, Helvetica, sans-serif;
       }
 
+      button {
+          font: 16px/24px Helvetica Neue, Arial, Helvetica, sans-serif;
+      }
+
       .hidden {
           display: none;
       }
 
       .root {
-          margin: 18px;
+          margin: calc(var(--spacing) * 3);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
       }
 
+      .chrome {
+          max-width: 600px;
+      }
+
+      .toc {
+          margin-left: calc(var(--spacing) * 3);
+      }
+
+      .content {
+          display: flex;
+          flex-direction: column;
+          gap: calc(var(--spacing) * 2);
+      }
 
       .pagehead {
-          margin: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .title {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: calc(var(--spacing) * 2);
+      }
+
+      .logo {
       }
 
       .subhead {
-          margin: 16px 0 0;
-      }
-
-      .nav {
-          display: flex;
-          flex-direction: column;
-          padding: 16px 12px 16px;
-          background-color: white;
-      }
-
-      .col {
-          display: flex;
-          flex-direction: column;
+          margin-top: calc(var(--spacing) * 2);
       }
 
       h1 {
@@ -56,67 +84,144 @@
           margin-bottom: 0;
       }
 
+      hr {
+
+      }
+
       .status {
           position: fixed;
           left: 50%;
           transform: translateX(-50%);
-          bottom: 16px;
-          background: white;
+          top: 50%;
+          background: var(--grey);
           border-radius: 12px;
           border: black 2px solid;
           padding: 12px;
       }
 
       .copyable-menu-link {
+          background: var(--grey);
+          border-radius: 12px;
+          border: none;
+          padding: var(--spacing);
+          font-size: 90%;
           cursor: pointer;
-          padding: 8px;
-          margin-left: -8px;
-          display: inline-block;
+      }
+
+      .copyable-menu-link:hover {
+          background: #a6a6a6;
+      }
+
+      .cal-group {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: calc(var(--spacing) * 4);
+      }
+
+      .cal-add-row {
+          display: flex;
+          flex-direction: row;
+          gap: calc(var(--spacing) * 2);
+          width: 100%;
+          justify-content: space-around;
+      }
+
+      .cal-add-group {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: var(--spacing);
+      }
+
+      .cal-add-group img {
+          width: 64px;
+      }
+
+      .cal-add-group div {
+          font-weight: bold;
+      }
+
+      .cal-add-group .qrcode {
+          width: 128px;
+      }
+
+      hr {
+          width: 75%;
+          background-color: var(--grey);
+          height: 2px;
+          border: none;
       }
   </style>
 </head>
 <body>
+<script>
+  function handleUrlClick(e) {
+    window.clearTimeout(window._ppsStatus)
+    const txt = e.target.innerHTML.split('&nbsp;')[0];
+    navigator.clipboard.writeText(txt)
+    document.getElementById('status').classList.remove('hidden')
+    window._ppsStatus = window.setTimeout(() => {
+      document.getElementById('status').classList.add('hidden')
+    }, 4000)
+  }
+</script>
 <div class="root">
   <div class="chrome">
-    <div class="nav">
-      <div class="col">
-        <h1 class="pagehead">PPS Food Menu Calendars</h1>
+    <div class="content">
+      <div class="pagehead">
+        <div class="title">
+          <img class="logo" width="54" height="54" src="/static/ui/pps_district_logo-01.png" alt="Portland Public Schools">
+          <h1>PPS Food Menu Calendars</h1>
+        </div>
         <p class="subhead">
           Sync the PPS food menus to your calendar app.
         </p>
         <p class="subhead">
-          To add a calendar, you should 'Import from URL' and use the URL for the food menus you care
-          about.
+          Scan the appropriate QR code, or tap the relevant icon, to add the calendar.
+          <br />See the bottom of the page for instructions to add manually.
+        </p>
+      </div>
+      <ul class="toc">
+        <% links.each do |link| %><li><a href="#<%= link[:slug] %>"><%= link[:name] %></a></li>
+        <% end %></ul>
+      <% links.each do |link| %>
+      <hr />
+      <div class="cal-group">
+        <a id="<%= link[:slug] %>"></a>
+        <h2><%= link[:name] %></h2>
+        <div class="cal-add-row">
+          <div class="cal-add-group">
+            <img src="/static/ui/gcalendar.png" alt="Add to Google Calendar" />
+            <a href=<%= link[:google_href] %>>Google Calendar</a>
+            <div class="qrcode"><%= link[:google_svg] %></div>
+          </div>
+          <div class="cal-add-group">
+            <img src="/static/ui/ical.png" alt="Add to Apple or Outlook" />
+            <a href=<%= link[:webcal_href] %>>Apple/Outlook</a>
+            <div class="qrcode"><%= link[:webcal_svg] %></div>
+          </div>
+        </div>
+        <button class="copyable-menu-link" onclick="handleUrlClick(event)">Copy ICS file link&nbsp;📋</button>
+      </div>
+      <% end %>
+      <p id="status" class="subhead status hidden">Copied to clipboard!</p>
+      <hr />
+      <div class="manual-add">
+        <p class="subhead">
+          <strong>To add a calendar manually,</strong> you can press the "Copy ICS Link" for a menu,
+          and then 'Import from URL' in your calendar application.
         </p>
         <ul>
           <li><a href="https://www.gsa.gov/system/files/ImportCalendarGoogle.pdf">Instructions for GMail</a></li>
           <li><a href="https://www.iphonelife.com/content/how-to-link-calendars-iphone-2022">Instructions for iPhone</a>
           </li>
         </ul>
+      </div>
+      <hr />
+      <div class="help">
         <p class="subhead">
-          Here are the menus. You can tap on the link to copy it:
-        </p>
-        <script>
-          function handleUrlClick(e) {
-            window.clearTimeout(window._ppsStatus)
-            const txt = e.target.innerHTML.split('&nbsp;')[0];
-            navigator.clipboard.writeText(txt)
-            document.getElementById('status').classList.remove('hidden')
-            window._ppsStatus = window.setTimeout(() => {
-              document.getElementById('status').classList.add('hidden')
-            }, 4000)
-          }
-        </script>
-        <ul>
-          <% links.each do |link| %>
-            <li>
-              <a href="<%= link[:href] %>"><%= link[:name] %></a>
-              <div class="copyable-menu-link" onclick="handleUrlClick(event)"><%= link[:href] %>&nbsp;📋</div>
-            </li>
-          <% end %>
-        </ul>
-        <p id="status" class="subhead status hidden">Copied to clipboard!</p>
-        <p class="subhead">
+          This is <strong>not</strong> an official PPS service.
           Email <a href="mailto://<%= author %> %>"><%= author %></a> to report any issues.
         </p>
         <p class="subhead">

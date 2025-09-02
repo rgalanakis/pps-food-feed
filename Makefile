@@ -18,8 +18,9 @@ dev-install:
 
 ## Run the development server (rebuild the site when certain files change).
 dev:
+	@make build
 	@echo "Watching for changes to /site"
-	@fswatch -o site | xargs -n1 -I{} make _dev-build
+	@fswatch -o site -o lib | xargs -n1 -I{} make _dev-build
 
 _dev-build:
 	@start=$$(gdate +%s%3N); \
