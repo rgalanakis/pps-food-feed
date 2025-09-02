@@ -1,31 +1,31 @@
 /static/feeds/breakfast_all_grades.ics
   Content-Type: text/calendar
-  Content-Disposition: inline; filename="PPS Menu - Breakfast (All Grades).ics"
+  Content-Disposition: inline
 
 /static/feeds/breakfast_lunch_access_ctp.ics
   Content-Type: text/calendar
-  Content-Disposition: inline; filename="PPS Menu - Breakfast, Lunch (Access, CTP).ics"
+  Content-Disposition: inline
 
 /static/feeds/early_learners.ics
   Content-Type: text/calendar
-  Content-Disposition: inline; filename="PPS Menu - Early Learners.ics"
+  Content-Disposition: inline
 
 /static/feeds/early_learners_creston.ics
   Content-Type: text/calendar
-  Content-Disposition: inline; filename="PPS Menu - Early Learners (Creston).ics"
+  Content-Disposition: inline
 
 /static/feeds/lunch_hs.ics
   Content-Type: text/calendar
-  Content-Disposition: inline; filename="PPS Menu - Lunch (HS).ics"
+  Content-Disposition: inline
 
 /static/feeds/lunch_k5_k8_ms.ics
   Content-Type: text/calendar
-  Content-Disposition: inline; filename="PPS Menu - Lunch (K5, K8, MS).ics"
+  Content-Disposition: inline
 
 /static/feeds/mecp.ics
   Content-Type: text/calendar
-  Content-Disposition: inline; filename="PPS Menu - MECP.ics"
+  Content-Disposition: inline
 
 /static/feeds/neighborhood_house.ics
   Content-Type: text/calendar
-  Content-Disposition: inline; filename="PPS Menu - Neighborhood House.ics"
+  Content-Disposition: inline
