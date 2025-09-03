@@ -1,5 +1,5 @@
 <% links.each do |link| %><%= link[:path] %>
-  Content-Type: text/calendar
-  Content-Disposition: inline
+  Content-Type: text/calendar; method=PUBLISH; charset=UTF-8
+  Content-Disposition: attachment; filename="<%= link[:attachment_filename] %>"
 
 <% end %>
