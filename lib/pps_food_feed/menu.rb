@@ -18,8 +18,8 @@ class PpsFoodFeed
         Read it and output a CSV file with the following columns: #{cols}.
         If the cell contains 'Schools Closed' or 'No School for Students', do not output a row for that day.
         If the day includes the text 'Early Release', the 'early release' column should be 'true', otherwise it should be empty.
-        Only include the CSV in your response.
-        The CSV must be property escaped.
+        The CSV in your response should be proper CSV (that is, not a Markdown code block with CSV),
+        and it must have correct CSV escaping.
       TXT
       return s
     end
