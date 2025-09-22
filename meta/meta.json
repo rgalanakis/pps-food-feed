@@ -68,6 +68,12 @@
       "fetched_at": "2025-08-20 00:08:24 +0000",
       "etag": "W/\"e07c2cde4311dc1:0\"",
       "latest_hash": "6bf794aed"
+    },
+    "October 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/October/Breakfast-Menu-October-2025.pdf",
+      "fetched_at": "2025-09-22 17:48:34 +0000",
+      "etag": "W/\"6dec8fc53527dc1:0\"",
+      "latest_hash": "c2685a5eb"
     }
   },
   "Lunch (K5, K8, MS)": {
@@ -139,6 +145,12 @@
       "fetched_at": "2025-08-20 00:08:24 +0000",
       "etag": "W/\"ab478de4311dc1:0\"",
       "latest_hash": "6b5a9ba4c"
+    },
+    "October 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/October/ES-MS-Lunch-Menu-October-2025.pdf",
+      "fetched_at": "2025-09-22 17:48:34 +0000",
+      "etag": "W/\"36abe3c43527dc1:0\"",
+      "latest_hash": "6edd45674"
     }
   },
   "Lunch (HS)": {
@@ -210,6 +222,12 @@
       "fetched_at": "2025-08-20 00:08:24 +0000",
       "etag": "W/\"1edbf9884411dc1:0\"",
       "latest_hash": "33634ac88"
+    },
+    "October 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/October/HS-Lunch-Menu-October-2025.pdf",
+      "fetched_at": "2025-09-22 17:48:34 +0000",
+      "etag": "W/\"d11eac43527dc1:0\"",
+      "latest_hash": "abc03b268"
     }
   },
   "Breakfast, Lunch (Access, CTP)": {
@@ -251,6 +269,12 @@
       "fetched_at": "2025-08-29 00:08:12 +0000",
       "etag": "W/\"d2a883fee15dc1:0\"",
       "latest_hash": "666090c23"
+    },
+    "October 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/October/Access-CTP-Menu-October-2025.pdf",
+      "fetched_at": "2025-09-22 17:48:34 +0000",
+      "etag": "W/\"6daa91c53527dc1:0\"",
+      "latest_hash": "f26a03fee"
     }
   },
   "Early Learners": {
@@ -310,6 +334,12 @@
       "fetched_at": "2025-08-25 00:09:02 +0000",
       "etag": "W/\"db59ee03215dc1:0\"",
       "latest_hash": "b66e40702"
+    },
+    "October 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/October/EL-Menu-October-2025.pdf",
+      "fetched_at": "2025-09-22 17:48:34 +0000",
+      "etag": "W/\"8febfac43527dc1:0\"",
+      "latest_hash": "b957474a8"
     }
   },
   "Early Learners (Creston)": {
@@ -369,6 +399,12 @@
       "fetched_at": "2025-08-29 00:08:12 +0000",
       "etag": "W/\"2035893fee15dc1:0\"",
       "latest_hash": "f8a0548d4"
+    },
+    "October 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/October/EL-Creston-Menu-October-2025.pdf",
+      "fetched_at": "2025-09-22 17:48:34 +0000",
+      "etag": "W/\"bcd8fdc53527dc1:0\"",
+      "latest_hash": "01868bfc2"
     }
   },
   "MECP": {
@@ -428,6 +464,12 @@
       "fetched_at": "2025-08-29 00:08:12 +0000",
       "etag": "W/\"83e19b84716dc1:0\"",
       "latest_hash": "7c3545f87"
+    },
+    "October 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/October/MECP-Head-Start-Menu-October-2025.pdf",
+      "fetched_at": "2025-09-22 17:48:34 +0000",
+      "etag": "W/\"f02767c53527dc1:0\"",
+      "latest_hash": "58c70766c"
     }
   },
   "Neighborhood House": {
@@ -487,6 +529,12 @@
       "fetched_at": "2025-08-29 00:08:12 +0000",
       "etag": "W/\"8486af84716dc1:0\"",
       "latest_hash": "7c3afb606"
+    },
+    "October 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/october/NH-Menu-October-2025.pdf",
+      "fetched_at": "2025-09-22 17:48:34 +0000",
+      "etag": "W/\"6ad9889acf2bdc1:0\"",
+      "latest_hash": "7a9b8cfcb"
     }
   },
   "Afterschool Snack": {
@@ -546,6 +594,12 @@
       "fetched_at": "2025-05-19 00:09:15 +0000",
       "etag": "W/\"e85c3f81bdc5db1:0\"",
       "latest_hash": "53e3a40bf"
+    },
+    "October 2025": {
+      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/October/Afterschool-Snack-Menu-October-2025.pdf",
+      "fetched_at": "2025-09-22 17:48:34 +0000",
+      "etag": "W/\"331f7023827dc1:0\"",
+      "latest_hash": "b39bf6396"
     }
   },
   "Head Start, Pre-K": {
