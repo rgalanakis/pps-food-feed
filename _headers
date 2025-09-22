@@ -1,3 +1,7 @@
+/static/feeds/afterschool_snack.ics
+  Content-Type: text/calendar; method=PUBLISH; charset=UTF-8
+  Content-Disposition: attachment; filename="Afterschool-Snack"
+
 /static/feeds/breakfast_all_grades.ics
   Content-Type: text/calendar; method=PUBLISH; charset=UTF-8
   Content-Disposition: attachment; filename="Breakfast-All-Grades"
