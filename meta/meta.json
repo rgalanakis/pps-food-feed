@@ -64,16 +64,34 @@
       "latest_hash": "27c28ed42"
     },
     "August-September 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/august-september/Breakfast-Menu-August-September-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1757451653/ppsnet/dtzujqzr9irnvzmakonj/Breakfast-Menu-August-September-2025.pdf",
       "fetched_at": "2025-08-20 00:08:24 +0000",
-      "etag": "W/\"e07c2cde4311dc1:0\"",
+      "etag": "\"cc1c4c5aecc1b4ec641fd10bbee058a8\"",
       "latest_hash": "6bf794aed"
     },
     "October 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/October/Breakfast-Menu-October-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1760458581/ppsnet/ad1wxranuk4m5047xthp/Breakfast-Menu-October-2025.pdf",
       "fetched_at": "2025-09-22 17:48:34 +0000",
-      "etag": "W/\"6dec8fc53527dc1:0\"",
+      "etag": "\"5f1e9993ed5ecb302885ed6115e6310d\"",
       "latest_hash": "c2685a5eb"
+    },
+    "January 2026": {
+      "url": "https://resources.finalsite.net/images/v1766078859/ppsnet/p4y1ctlrshbk7ql21vjc/Breakfast-Menu-January-2026.pdf",
+      "etag": "\"27632381c642875a1e56097a316b4724\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "8718f9978"
+    },
+    "December 2025": {
+      "url": "https://resources.finalsite.net/images/v1762811084/ppsnet/rpvhywitnqquerslpqqd/Breakfast-Menu-December-2025.pdf",
+      "etag": "\"8f4ffdc96d7051f58b4106fff4e5b3fd\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "c7c0110ef"
+    },
+    "November 2025": {
+      "url": "https://resources.finalsite.net/images/v1761750552/ppsnet/cce6y8odoqmiuwozn6jj/Breakfast-Menu-November-2025.pdf",
+      "etag": "\"4327ac1abacd4ef27edadc371c6d74a8\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "21c51b63f"
     }
   },
   "Lunch (K5, K8, MS)": {
@@ -141,16 +159,34 @@
       "latest_hash": "880d3a121"
     },
     "August-September 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/august-september/ES-MS-Lunch-Menu-August-September-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1757451653/ppsnet/pfritcy6ffusghvjrmax/ES-MS-Lunch-Menu-August-September-2025.pdf",
       "fetched_at": "2025-08-20 00:08:24 +0000",
-      "etag": "W/\"ab478de4311dc1:0\"",
+      "etag": "\"9192dd275abd0738e9cde8dcaa415aa6\"",
       "latest_hash": "6b5a9ba4c"
     },
     "October 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/October/ES-MS-Lunch-Menu-October-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1760458646/ppsnet/eqnorekvjbsms9hdliq3/ES-MS-Lunch-Menu-October-20251.pdf",
       "fetched_at": "2025-09-22 17:48:34 +0000",
-      "etag": "W/\"36abe3c43527dc1:0\"",
+      "etag": "\"1150a33c33f8ba2b5d746b2134907a50\"",
       "latest_hash": "6edd45674"
+    },
+    "January 2026": {
+      "url": "https://resources.finalsite.net/images/v1766078904/ppsnet/rtoz1bcogonvo8zd8lbn/ES-MS-Lunch-Menu-January-2026.pdf",
+      "etag": "\"c07f0a0dcb3f41431213e1bcf1e9acaa\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "a78974537"
+    },
+    "December 2025": {
+      "url": "https://resources.finalsite.net/images/v1762811114/ppsnet/j7thi2qoztx03saynchl/ES-MS-Lunch-Menu-December-2025.pdf",
+      "etag": "\"54b834954587829040a2dcbe1b8b2de0\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "b63c9d703"
+    },
+    "November 2025": {
+      "url": "https://resources.finalsite.net/images/v1761750439/ppsnet/ty34g26uqott3oi22ktx/ES-MS-Lunch-Menu-November-2025.pdf",
+      "etag": "\"294e3cf02b323faec586b2538a7685e2\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "70be0d7d3"
     }
   },
   "Lunch (HS)": {
@@ -218,16 +254,34 @@
       "latest_hash": "d7c44b70a"
     },
     "August-September 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/august-september/HS-Lunch-Menu-August-September-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1757451652/ppsnet/pegthwoxspptby82xjho/HS-Lunch-Menu-August-September-2025.pdf",
       "fetched_at": "2025-08-20 00:08:24 +0000",
-      "etag": "W/\"1edbf9884411dc1:0\"",
+      "etag": "\"28f85ac32874f9f09f20bfded64d0b62\"",
       "latest_hash": "33634ac88"
     },
     "October 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/October/HS-Lunch-Menu-October-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1760458678/ppsnet/ungjro4znsg3oteez3yo/HS-Lunch-Menu-October-20251.pdf",
       "fetched_at": "2025-09-22 17:48:34 +0000",
-      "etag": "W/\"d11eac43527dc1:0\"",
+      "etag": "\"fe4dae4feacd20ed93786f6edc41274c\"",
       "latest_hash": "abc03b268"
+    },
+    "January 2026": {
+      "url": "https://resources.finalsite.net/images/v1766078937/ppsnet/r2mk0zs66hxi08tf44cw/HS-Lunch-Menu-January-2026.pdf",
+      "etag": "\"2f4e44bc0c844db767581ffcee148669\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "ffb252364"
+    },
+    "December 2025": {
+      "url": "https://resources.finalsite.net/images/v1762811146/ppsnet/vonukmbouqdx27kcjmri/HS-Lunch-Menu-December-2025.pdf",
+      "etag": "\"7fafd2ffd453d51c392ab37a638ec166\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "70d18103c"
+    },
+    "November 2025": {
+      "url": "https://resources.finalsite.net/images/v1761750464/ppsnet/eo3tvt9vgf8rvyxwosgm/HS-Lunch-Menu-November-2025.pdf",
+      "etag": "\"ff9d7cd0c542d68ff12b94054bc5a5c9\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "c02a8d8f7"
     }
   },
   "Breakfast, Lunch (Access, CTP)": {
@@ -265,16 +319,34 @@
       "ical_filename": "breakfast_lunch_access_ctp.ics"
     },
     "August-September 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/august-september/Access-CTP-Menu-August-September-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1757451653/ppsnet/qen3x8pkewgeskwtxckk/Access-CTP-Menu-August-September-2025.pdf",
       "fetched_at": "2025-08-29 00:08:12 +0000",
-      "etag": "W/\"d2a883fee15dc1:0\"",
+      "etag": "\"5afee73ada7eca208eca093b45b38cb8\"",
       "latest_hash": "666090c23"
     },
     "October 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/October/Access-CTP-Menu-October-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1760458708/ppsnet/zp8bqktzwyjgltsamrmk/Access-CTP-Menu-October-2025.pdf",
       "fetched_at": "2025-09-22 17:48:34 +0000",
-      "etag": "W/\"6daa91c53527dc1:0\"",
+      "etag": "\"d130975ca7b4ced490e577dfc84c20f5\"",
       "latest_hash": "f26a03fee"
+    },
+    "January 2026": {
+      "url": "https://resources.finalsite.net/images/v1766078961/ppsnet/tdtjwfzzl4su18tqfwhk/Access-CTP-Menu-January-2026.pdf",
+      "etag": "\"357f69187c95d39dafbad10287c56f9b\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "80570138b"
+    },
+    "December 2025": {
+      "url": "https://resources.finalsite.net/images/v1762811170/ppsnet/hsda5eklzrpltvrl38ve/Access-CTP-Menu-December-2025.pdf",
+      "etag": "\"6514a753dd42f5d478e74e2a08813588\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "7ea901cfe"
+    },
+    "November 2025": {
+      "url": "https://resources.finalsite.net/images/v1761750483/ppsnet/zoeyimeukii9la9g2ogl/Access-CTP-Menu-November-2025_1.pdf",
+      "etag": "\"754c14ae78f0a07e4c8dc2d3c1f40b85\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "ffd549d90"
     }
   },
   "Early Learners": {
@@ -330,16 +402,34 @@
       "latest_hash": "024bc2185"
     },
     "August-September 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/august-september/EL-Menu-September-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1757451652/ppsnet/stgwqwn2oc8q0qnnitmg/EL-Menu-September-2025.pdf",
       "fetched_at": "2025-08-25 00:09:02 +0000",
-      "etag": "W/\"db59ee03215dc1:0\"",
+      "etag": "\"83767057f045caf239ecabec21c19ccf\"",
       "latest_hash": "b66e40702"
     },
     "October 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/October/EL-Menu-October-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1760458782/ppsnet/oupkhlvrcjxqodfeemyr/EL-Menu-October-2025.pdf",
       "fetched_at": "2025-09-22 17:48:34 +0000",
-      "etag": "W/\"8febfac43527dc1:0\"",
+      "etag": "\"7ff6ace40826a09a2d4789e6b57bcb69\"",
       "latest_hash": "b957474a8"
+    },
+    "January 2026": {
+      "url": "https://resources.finalsite.net/images/v1766078993/ppsnet/yoeleacstzevzmoqu8yf/EL-Menu-January-2026.pdf",
+      "etag": "\"71fbcaaa25e22c78763e288767c9077e\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "04e5e6350"
+    },
+    "December 2025": {
+      "url": "https://resources.finalsite.net/images/v1762811645/ppsnet/k7ockqj5hiv6pelof2kv/EL-Menu-December-2025.pdf",
+      "etag": "\"7c883a9c90a145243eea7e3102c71236\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "6927ebce8"
+    },
+    "November 2025": {
+      "url": "https://resources.finalsite.net/images/v1761750401/ppsnet/xfkt9tiiflji8tavmbek/EL-Menu-November-2025.pdf",
+      "etag": "\"83a8d076a3aaee77d336d39f707802b0\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "cd9863af8"
     }
   },
   "Early Learners (Creston)": {
@@ -395,16 +485,34 @@
       "latest_hash": "fa61cdb03"
     },
     "August-September 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/august-september/EL-Creston-Menu-September-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1757451653/ppsnet/frp46y5zaxmssozt0qbi/EL-Creston-Menu-September-2025.pdf",
       "fetched_at": "2025-08-29 00:08:12 +0000",
-      "etag": "W/\"2035893fee15dc1:0\"",
+      "etag": "\"6d57cbeb75d568739ad926ce8c199ad3\"",
       "latest_hash": "f8a0548d4"
     },
     "October 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/October/EL-Creston-Menu-October-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1760458741/ppsnet/dmtvrca0jnnutdg7idjf/EL-Creston-Menu-October-2025.pdf",
       "fetched_at": "2025-09-22 17:48:34 +0000",
-      "etag": "W/\"bcd8fdc53527dc1:0\"",
+      "etag": "\"49d0edbb77edd0aaedfb378133b4eeb9\"",
       "latest_hash": "01868bfc2"
+    },
+    "January 2026": {
+      "url": "https://resources.finalsite.net/images/v1766079014/ppsnet/bjv6jd0xt1w0vaydelbe/EL-Creston-Menu-January-2026.pdf",
+      "etag": "\"761f4766ebee25f0ca0abda5d6ba6218\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "dd5f61434"
+    },
+    "December 2025": {
+      "url": "https://resources.finalsite.net/images/v1762811210/ppsnet/duf6gpkx0tu7cebwwudm/EL-Creston-Menu-December-2025.pdf",
+      "etag": "\"dbb88b4d05fb88f97ce6a4f72d2b92f9\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "bac0468e4"
+    },
+    "November 2025": {
+      "url": "https://resources.finalsite.net/images/v1761750535/ppsnet/mrtpfcjhfpqu3rgpkeso/EL-Creston-Menu-November-2025.pdf",
+      "etag": "\"95e8edc2b1294ad97d53a678a4df4211\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "0f93318f6"
     }
   },
   "MECP": {
@@ -460,16 +568,34 @@
       "latest_hash": "2406cef61"
     },
     "August-September 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/august-september/MECP-Head-Start-Menu-September-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1757451652/ppsnet/su020ls8vkqrh9mmegzk/MECP-Head-Start-Menu-September-2025.pdf",
       "fetched_at": "2025-08-29 00:08:12 +0000",
-      "etag": "W/\"83e19b84716dc1:0\"",
+      "etag": "\"80ced41d6173e82919ef336018ac0db4\"",
       "latest_hash": "7c3545f87"
     },
     "October 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/October/MECP-Head-Start-Menu-October-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1760458818/ppsnet/ln2jzfvvssd1jkfzvetd/MECP-Head-Start-Menu-October-2025.pdf",
       "fetched_at": "2025-09-22 17:48:34 +0000",
-      "etag": "W/\"f02767c53527dc1:0\"",
+      "etag": "\"557aa8716588f05a22e708b0d5e2dff4\"",
       "latest_hash": "58c70766c"
+    },
+    "January 2026": {
+      "url": "https://resources.finalsite.net/images/v1766079034/ppsnet/tof1jtw9jgsmp7nliyfw/MECP-Head-Start-Menu-January-2026.pdf",
+      "etag": "\"5556dfe858166ea2f586034395c2a77c\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "424abef2c"
+    },
+    "December 2025": {
+      "url": "https://resources.finalsite.net/images/v1762811267/ppsnet/uretxdsy3lz6ddjvc59p/MECP-Head-Start-Menu-December-2025.pdf",
+      "etag": "\"a37856ea97cc295164ea29f539a6ef28\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "146469c3c"
+    },
+    "November 2025": {
+      "url": "https://resources.finalsite.net/images/v1761750606/ppsnet/ygozaeoaooblok2bkpoh/MECP-Head-Start-Menu-November-2025.pdf",
+      "etag": "\"b55446eb399529fd85a71484b184cf98\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "e6bd24d4a"
     }
   },
   "Neighborhood House": {
@@ -525,16 +651,34 @@
       "latest_hash": "b48e26376"
     },
     "August-September 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/august-september/NH-Menu-September-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1757451652/ppsnet/dy6pupyqz2woe2bcvif8/NH-Menu-September-2025.pdf",
       "fetched_at": "2025-08-29 00:08:12 +0000",
-      "etag": "W/\"8486af84716dc1:0\"",
+      "etag": "\"1f6f5fe2fb3f3c82459a819eac298e7d\"",
       "latest_hash": "7c3afb606"
     },
     "October 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/october/NH-Menu-October-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1760458841/ppsnet/hehy1d8ufwfisyapye6p/NH-Menu-October-2025.pdf",
       "fetched_at": "2025-09-22 17:48:34 +0000",
-      "etag": "W/\"6ad9889acf2bdc1:0\"",
+      "etag": "\"cbe1bd5dfef7345c73b7b57df7111ff6\"",
       "latest_hash": "7a9b8cfcb"
+    },
+    "January 2026": {
+      "url": "https://resources.finalsite.net/images/v1766079052/ppsnet/fa5ir0lthk19ybpdyoip/NH-Menu-January-2026.pdf",
+      "etag": "\"94f971217819cff8e4d6a592c4f131a2\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "aacf3fc17"
+    },
+    "December 2025": {
+      "url": "https://resources.finalsite.net/images/v1762811679/ppsnet/l2ez23gbwxsklwvm9hkf/NH-Menu-December-2025_1.pdf",
+      "etag": "\"b875135703c238c94a55deb594cb5d76\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "bd7e3d34e"
+    },
+    "November 2025": {
+      "url": "https://resources.finalsite.net/images/v1761750625/ppsnet/pj6v4rnzew352e50ex94/NH-Menu-November-2025.pdf",
+      "etag": "\"045b9c66523cb60a838aca3717667b89\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "782a3d068"
     }
   },
   "Afterschool Snack": {
@@ -596,10 +740,28 @@
       "latest_hash": "53e3a40bf"
     },
     "October 2025": {
-      "url": "https://www.pps.net/cms/lib/OR01913224/Centricity/domain/59/menu%20calendars/2025-26/October/Afterschool-Snack-Menu-October-2025.pdf",
+      "url": "https://resources.finalsite.net/images/v1760458864/ppsnet/an6duhhjulalz6glrv9q/Afterschool-Snack-Menu-October-2025.pdf",
       "fetched_at": "2025-09-22 17:48:34 +0000",
-      "etag": "W/\"331f7023827dc1:0\"",
+      "etag": "\"8924a8434816f9bac2b4acdac70c9a5a\"",
       "latest_hash": "b39bf6396"
+    },
+    "January 2026": {
+      "url": "https://resources.finalsite.net/images/v1766079074/ppsnet/hnp2kdbzbkcv2r95utmo/Afterschool-Snack-Menu-January-2026.pdf",
+      "etag": "\"128c6e07a72946ed17d6ec2cceefaa01\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "cdc5f5f4e"
+    },
+    "December 2025": {
+      "url": "https://resources.finalsite.net/images/v1762811344/ppsnet/vl6ufrcxjh2daygjnwwu/Afterschool-Snack-Menu-December-2025.pdf",
+      "etag": "\"059ef47c94658bf7dc98653ddc5d8812\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "c95fac046"
+    },
+    "November 2025": {
+      "url": "https://resources.finalsite.net/images/v1761750506/ppsnet/hrcyihbxfss4ibdtexgv/Afterschool-Snack-Menu-November-2025.pdf",
+      "etag": "\"bdfdef95a122ff6d64d3f035b65f22af\"",
+      "fetched_at": "2026-01-01 10:38:59 -0800",
+      "latest_hash": "62b6c4571"
     }
   },
   "Head Start, Pre-K": {
