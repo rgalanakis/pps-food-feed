@@ -34,5 +34,9 @@ class PpsFoodFeed
       path = PpsFoodFeed::META_DIR + "meta.json"
       File.write(path, JSON.pretty_generate(@h))
     end
+
+    def to_h
+      return @h.dup
+    end
   end
 end
