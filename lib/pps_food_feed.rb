@@ -65,7 +65,10 @@ class PpsFoodFeed
     end
 
     def clean_filename_part(s)
-      r = s.gsub("/", ", ") # Would break pathing
+      r = s.gsub(/\p{Space}/u, " ") # Unicode nbsp are in menu names in HTML, normalize to spaces
+      r.strip! # Strip AFTER nbsp replacement
+      r.gsub!("/", ", ") # Would break pathing
+      # noinspection RegExpSimplifiable
       r.gsub!(".", "") # Not currently used in menus, but would break us if it were
       r.gsub!("|", "-") # Not currently used in menus, but would break us if it were
       return r
