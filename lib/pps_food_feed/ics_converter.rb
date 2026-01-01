@@ -44,8 +44,7 @@ class PpsFoodFeed
           # Sometimes the LLM uses day_of_month as asked, sometimes day, try both.
           day_of_month = row[:day_of_month] || row[:day] or
             raise KeyError, "row must contain :day_of_month or :day: #{row}"
-          dstr = "#{month} #{day_of_month} #{year}"
-          rubydate = Date.parse(dstr)
+          rubydate = self.parse_date(month, day_of_month, year)
           d = Icalendar::Values::Date.new(rubydate)
           lastmod = Time.parse(@meta.get(menu_name, menu_month, :fetched_at))
           cal.event do |e|
@@ -72,6 +71,22 @@ class PpsFoodFeed
       h << menu_month
       h << JSON.generate(row)
       return h.hexdigest
+    end
+
+    # month can be 'January' or '01' or '1'.
+    # To avoid ambiguous month/day, if the month is numeric,
+    # pad and parse it. Otherwise, fall back to default parsing,
+    # so things like 'Jan' and 'January' both work without lots of logic.
+    def parse_date(month, day_of_month, year)
+      month = month.to_s
+      day_of_month = day_of_month.to_s.rjust(2, "0")
+      if month =~ /^\d/
+        month = month.rjust(2, "0")
+        return Date.strptime("#{month} #{day_of_month} #{year}", "%m %d %Y")
+      end
+      return Date.parse("#{month} #{day_of_month} #{year}")
+    rescue Date::Error => e
+      raise "#{e} parsing #{month}, #{day}, #{day_of_month}"
     end
 
     def summary(menu, row)
