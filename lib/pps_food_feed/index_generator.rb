@@ -20,8 +20,10 @@ class PpsFoodFeed
         slug = f
         attachment_filename = name.gsub(/[^\w ]+/, "").gsub(" ", "-")
         path = "/static/feeds/#{f}"
-        href = "#{PpsFoodFeed.site_host}#{path}"
-        webcal_href = href.gsub(/^(https|http):/, "webcal:")
+        # Use HTTP, NOT HTTPS. I think this is a webcal thing?
+        # Encoding the URL is fine though.
+        href = "#{PpsFoodFeed.site_host}#{path}".gsub(/^https/, "http")
+        webcal_href = href.gsub(/^http/, "webcal")
         inline_svg = RQRCode::QRCode.new(href).as_svg(viewbox: true)
         webcal_svg = RQRCode::QRCode.new(webcal_href).as_svg(viewbox: true)
         # See https://til.simonwillison.net/ics/google-calendar-ics-subscribe-link
