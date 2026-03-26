@@ -104,6 +104,12 @@
       "etag": "\"d10c7c11bcfb59495fbf1aca57b0dd83\"",
       "fetched_at": "2026-02-27 00:13:33 +0000",
       "latest_hash": "65ef85011"
+    },
+    "April": {
+      "url": "https://resources.finalsite.net/images/v1774447384/ppsnet/jkqnypnuwxzwreffowvm/Breakfast-Menu-April-2026.pdf",
+      "etag": "\"755c09815426d2e0877cdd4e77acdd3f\"",
+      "fetched_at": "2026-03-26 00:15:44 +0000",
+      "latest_hash": "c1066f119"
     }
   },
   "Lunch (K5, K8, MS)": {
@@ -211,6 +217,12 @@
       "etag": "\"bb3b414677b45e88c51d2334f2074848\"",
       "fetched_at": "2026-02-27 00:13:33 +0000",
       "latest_hash": "27f710a42"
+    },
+    "April": {
+      "url": "https://resources.finalsite.net/images/v1774447417/ppsnet/mhcb8bt9d65buvwpgtnt/ES-MS-Lunch-Menu-April-2026.pdf",
+      "etag": "\"f630093c3e7a2265035b734dd5f737c0\"",
+      "fetched_at": "2026-03-26 00:15:44 +0000",
+      "latest_hash": "3ffe2a341"
     }
   },
   "Lunch (HS)": {
@@ -318,6 +330,12 @@
       "etag": "\"6799279e2288042576e8c6c3d94d7f68\"",
       "fetched_at": "2026-02-27 00:13:33 +0000",
       "latest_hash": "4d29c0956"
+    },
+    "April": {
+      "url": "https://resources.finalsite.net/images/v1774447450/ppsnet/ah5cqzhojm47l0su8jpq/HS-Lunch-Menu-April-2026.pdf",
+      "etag": "\"d80b1806946ca6700c917c7850570fa1\"",
+      "fetched_at": "2026-03-26 00:15:44 +0000",
+      "latest_hash": "f63846f3c"
     }
   },
   "Breakfast, Lunch (Access, CTP)": {
@@ -395,6 +413,12 @@
       "etag": "\"a62191846fe0f3ec1cc088a4f944badb\"",
       "fetched_at": "2026-02-27 00:13:33 +0000",
       "latest_hash": "dcf40a087"
+    },
+    "April": {
+      "url": "https://resources.finalsite.net/images/v1774447474/ppsnet/p0heeof10cjgohbwrcpp/Access-CTP-Menu-April-2026.pdf",
+      "etag": "\"f8b02144eb1b1bc749310229ad2fe0f7\"",
+      "fetched_at": "2026-03-26 00:15:44 +0000",
+      "latest_hash": "cc2f7432d"
     }
   },
   "Early Learners": {
@@ -490,6 +514,12 @@
       "etag": "\"71f8248785e2479bbc34901c853f161e\"",
       "fetched_at": "2026-02-27 00:13:33 +0000",
       "latest_hash": "c082333b1"
+    },
+    "April": {
+      "url": "https://resources.finalsite.net/images/v1774447500/ppsnet/jk0xlhpledmgigqlpts2/EL-Menu-April-2026.pdf",
+      "etag": "\"f0b301a7ecb4d417e3e504db0c497ada\"",
+      "fetched_at": "2026-03-26 00:15:44 +0000",
+      "latest_hash": "f00e5bbd6"
     }
   },
   "Early Learners (Creston)": {
@@ -585,6 +615,12 @@
       "etag": "\"60fba9fd86dae3a1fee43577715bbca9\"",
       "fetched_at": "2026-02-27 00:13:33 +0000",
       "latest_hash": "05695fea2"
+    },
+    "April": {
+      "url": "https://resources.finalsite.net/images/v1774447531/ppsnet/w5csaun2kcnz6ykexlvq/EL-Creston-Menu-April-2026.pdf",
+      "etag": "\"5e5c63b68cae8d309e58a924c4047cfb\"",
+      "fetched_at": "2026-03-26 00:15:44 +0000",
+      "latest_hash": "c62975e7f"
     }
   },
   "MECP": {
@@ -680,6 +716,12 @@
       "etag": "\"8610c81ec073afd23613b6e57148c883\"",
       "fetched_at": "2026-02-27 00:13:33 +0000",
       "latest_hash": "c206af160"
+    },
+    "April": {
+      "url": "https://resources.finalsite.net/images/v1774447554/ppsnet/oi7nsq6p6lv60o5ioyos/MECP-Head-Start-Menu-April-2026.pdf",
+      "etag": "\"3934b7c7d78d0df5f4ab9b58dd3b7c29\"",
+      "fetched_at": "2026-03-26 00:15:44 +0000",
+      "latest_hash": "559b1aa90"
     }
   },
   "Neighborhood House": {
@@ -775,6 +817,12 @@
       "etag": "\"3b105ef677b2caf26b9d984aef69b17f\"",
       "fetched_at": "2026-02-27 00:13:33 +0000",
       "latest_hash": "6b40297ee"
+    },
+    "April": {
+      "url": "https://resources.finalsite.net/images/v1774447578/ppsnet/pb5iixjhuyaarpu4o1du/NH-Menu-April-2026.pdf",
+      "etag": "\"3e9ea6b8cdc3594237bf79302c9771e3\"",
+      "fetched_at": "2026-03-26 00:15:44 +0000",
+      "latest_hash": "0ef1ead71"
     }
   },
   "Afterschool Snack": {
@@ -870,6 +918,12 @@
       "etag": "\"7db5a58a2039a949dd33aefefdcb9ce2\"",
       "fetched_at": "2026-02-27 00:13:33 +0000",
       "latest_hash": "62cbfd418"
+    },
+    "April": {
+      "url": "https://resources.finalsite.net/images/v1774447600/ppsnet/jizi69viaacxxauw9gqq/Afterschool-Snack-Menu-April-2026.pdf",
+      "etag": "\"5ded81b71ba3419cae76ec8de9d73d04\"",
+      "fetched_at": "2026-03-26 00:15:44 +0000",
+      "latest_hash": "3357192d7"
     }
   },
   "Head Start, Pre-K": {
