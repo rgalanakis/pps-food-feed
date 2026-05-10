@@ -116,6 +116,30 @@
       "etag": "\"b2300d96584a9f7fe9dbeea204fb26bf\"",
       "fetched_at": "2026-04-21 00:20:49 +0000",
       "latest_hash": "37067c511"
+    },
+    "June 2026": {
+      "url": "https://resources.finalsite.net/images/v1778255569/ppsnet/d8vccjfngwpoamcxwa1n/Breakfast-Menu-June-2026.pdf",
+      "etag": "\"54cc12a12519865ee5d753c01e77d3b1\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "7d20cc18d"
+    },
+    "May 2026": {
+      "url": "https://resources.finalsite.net/images/v1776692122/ppsnet/ktqljiysrq6wqwvy13lg/Breakfast-Menu-May-2026.pdf",
+      "etag": "\"b2300d96584a9f7fe9dbeea204fb26bf\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "37067c511"
+    },
+    "April 2026": {
+      "url": "https://resources.finalsite.net/images/v1774447384/ppsnet/jkqnypnuwxzwreffowvm/Breakfast-Menu-April-2026.pdf",
+      "etag": "\"755c09815426d2e0877cdd4e77acdd3f\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "c1066f119"
+    },
+    "March 2026": {
+      "url": "https://resources.finalsite.net/images/v1772127297/ppsnet/tfyugneylxteur7bpljd/Breakfast-Menu-March-2026.pdf",
+      "etag": "\"d10c7c11bcfb59495fbf1aca57b0dd83\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "65ef85011"
     }
   },
   "Lunch (K5, K8, MS)": {
@@ -235,6 +259,30 @@
       "etag": "\"4a3bf1ecb7f38bdc41a67521f1d17c24\"",
       "fetched_at": "2026-04-21 00:20:49 +0000",
       "latest_hash": "f87ba7d14"
+    },
+    "June 2026": {
+      "url": "https://resources.finalsite.net/images/v1778255604/ppsnet/y49bt04d6ogijl1hjmvl/ES-MS-Lunch-Menu-June-2026.pdf",
+      "etag": "\"7234020f7bae04d1c4b110f036db4bd2\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "838d14fa9"
+    },
+    "May 2026": {
+      "url": "https://resources.finalsite.net/images/v1776692149/ppsnet/kj1nrtmsgaa0xwrjhlpz/ES-MS-Lunch-Menu-May-2026.pdf",
+      "etag": "\"4a3bf1ecb7f38bdc41a67521f1d17c24\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "f87ba7d14"
+    },
+    "April 2026": {
+      "url": "https://resources.finalsite.net/images/v1774447417/ppsnet/mhcb8bt9d65buvwpgtnt/ES-MS-Lunch-Menu-April-2026.pdf",
+      "etag": "\"f630093c3e7a2265035b734dd5f737c0\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "3ffe2a341"
+    },
+    "March 2026": {
+      "url": "https://resources.finalsite.net/images/v1772127328/ppsnet/hzg5icwe0fohhiit7dnr/ES-MS-Lunch-Menu-March-2026.pdf",
+      "etag": "\"bb3b414677b45e88c51d2334f2074848\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "27f710a42"
     }
   },
   "Lunch (HS)": {
@@ -354,6 +402,30 @@
       "etag": "\"3e5cdccba92401bf5eddb03bfe976b10\"",
       "fetched_at": "2026-04-21 00:20:49 +0000",
       "latest_hash": "ca5728013"
+    },
+    "June 2026": {
+      "url": "https://resources.finalsite.net/images/v1778255628/ppsnet/siyxgir7wq0bmgmskdax/HS-Lunch-Menu-June-2026.pdf",
+      "etag": "\"8dff5436c971b4fe51c69ec1b0142ae9\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "c78b5efcc"
+    },
+    "May 2026": {
+      "url": "https://resources.finalsite.net/images/v1776692172/ppsnet/okwbjprwre1kbn18jayp/HS-Lunch-Menu-May-2026.pdf",
+      "etag": "\"3e5cdccba92401bf5eddb03bfe976b10\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "ca5728013"
+    },
+    "April 2026": {
+      "url": "https://resources.finalsite.net/images/v1774447450/ppsnet/ah5cqzhojm47l0su8jpq/HS-Lunch-Menu-April-2026.pdf",
+      "etag": "\"d80b1806946ca6700c917c7850570fa1\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "f63846f3c"
+    },
+    "March 2026": {
+      "url": "https://resources.finalsite.net/images/v1772127353/ppsnet/dzxvhc00yfwi5nn66w5x/HS-Lunch-Menu-March-2026.pdf",
+      "etag": "\"6799279e2288042576e8c6c3d94d7f68\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "4d29c0956"
     }
   },
   "Breakfast, Lunch (Access, CTP)": {
@@ -443,6 +515,30 @@
       "etag": "\"add69ea02438b1e4b319b21ac6fddbb7\"",
       "fetched_at": "2026-04-21 00:20:49 +0000",
       "latest_hash": "52bba5733"
+    },
+    "June 2026": {
+      "url": "https://resources.finalsite.net/images/v1778255649/ppsnet/bc78kddudducjdtdwiro/Access-CTP-Menu-June-2026.pdf",
+      "etag": "\"1874989e9d34eef15bbde47845d704f8\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "9f595f578"
+    },
+    "May 2026": {
+      "url": "https://resources.finalsite.net/images/v1776692200/ppsnet/scnlwxbhdljejiqmkxy2/Access-CTP-Menu-May-2026.pdf",
+      "etag": "\"add69ea02438b1e4b319b21ac6fddbb7\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "52bba5733"
+    },
+    "April 2026": {
+      "url": "https://resources.finalsite.net/images/v1774447474/ppsnet/p0heeof10cjgohbwrcpp/Access-CTP-Menu-April-2026.pdf",
+      "etag": "\"f8b02144eb1b1bc749310229ad2fe0f7\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "cc2f7432d"
+    },
+    "March 2026": {
+      "url": "https://resources.finalsite.net/images/v1772127375/ppsnet/p5gzf4sx0zljrnyt3dte/Access-CTP-Menu-March-2026.pdf",
+      "etag": "\"a62191846fe0f3ec1cc088a4f944badb\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "dcf40a087"
     }
   },
   "Early Learners": {
@@ -550,6 +646,30 @@
       "etag": "\"ed11f60d37829566d4ed9db70b5dad32\"",
       "fetched_at": "2026-04-21 00:20:49 +0000",
       "latest_hash": "d73a9dbc8"
+    },
+    "June 2026": {
+      "url": "https://resources.finalsite.net/images/v1778255672/ppsnet/rc89tkohktzivuziankb/EL-Menu-June-2026.pdf",
+      "etag": "\"598db666f07b075292d28bcaa2a3d54b\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "240fc090b"
+    },
+    "May 2026": {
+      "url": "https://resources.finalsite.net/images/v1776692222/ppsnet/xonm9t8ysbtapgwz6zg6/EL-Menu-May-2026.pdf",
+      "etag": "\"ed11f60d37829566d4ed9db70b5dad32\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "d73a9dbc8"
+    },
+    "April 2026": {
+      "url": "https://resources.finalsite.net/images/v1774447500/ppsnet/jk0xlhpledmgigqlpts2/EL-Menu-April-2026.pdf",
+      "etag": "\"f0b301a7ecb4d417e3e504db0c497ada\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "f00e5bbd6"
+    },
+    "March 2026": {
+      "url": "https://resources.finalsite.net/images/v1772127400/ppsnet/rpfklzak0bvydmxs4mtg/EL-Menu-March-2026.pdf",
+      "etag": "\"71f8248785e2479bbc34901c853f161e\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "c082333b1"
     }
   },
   "Early Learners (Creston)": {
@@ -657,6 +777,30 @@
       "etag": "\"5c6cdc10fde60b9d5cabcd83246ea821\"",
       "fetched_at": "2026-04-21 00:20:49 +0000",
       "latest_hash": "c79d21dc5"
+    },
+    "June 2026": {
+      "url": "https://resources.finalsite.net/images/v1778255689/ppsnet/z3n9gfo1o5t6d1jenajb/EL-Creston-Menu-June-2026.pdf",
+      "etag": "\"1353ad6f26e9c186eef72f9a7b445c7d\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "c731d1133"
+    },
+    "May 2026": {
+      "url": "https://resources.finalsite.net/images/v1776692263/ppsnet/ehzxrfbtnkassopd61u0/EL-Creston-Menu-May-2026.pdf",
+      "etag": "\"5c6cdc10fde60b9d5cabcd83246ea821\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "c79d21dc5"
+    },
+    "April 2026": {
+      "url": "https://resources.finalsite.net/images/v1774447531/ppsnet/w5csaun2kcnz6ykexlvq/EL-Creston-Menu-April-2026.pdf",
+      "etag": "\"5e5c63b68cae8d309e58a924c4047cfb\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "c62975e7f"
+    },
+    "March 2026": {
+      "url": "https://resources.finalsite.net/images/v1772127422/ppsnet/edwlslmmcravibqgqqit/EL-Creston-Menu-March-2026.pdf",
+      "etag": "\"60fba9fd86dae3a1fee43577715bbca9\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "05695fea2"
     }
   },
   "MECP": {
@@ -764,6 +908,30 @@
       "etag": "\"893377573c7001ebee012a02de58d0d7\"",
       "fetched_at": "2026-04-21 00:20:49 +0000",
       "latest_hash": "4ad04c2a3"
+    },
+    "June 2026": {
+      "url": "https://resources.finalsite.net/images/v1778255707/ppsnet/u58zx10v8bw8n4xonuut/MECP-Head-Start-Menu-June-2026.pdf",
+      "etag": "\"3e90e18317a2b552c9eb1997c0e417de\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "283142298"
+    },
+    "May 2026": {
+      "url": "https://resources.finalsite.net/images/v1776692299/ppsnet/irprlrc7fdb95szibhyo/MECP-Head-Start-Menu-May-2026.pdf",
+      "etag": "\"893377573c7001ebee012a02de58d0d7\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "4ad04c2a3"
+    },
+    "April 2026": {
+      "url": "https://resources.finalsite.net/images/v1774447554/ppsnet/oi7nsq6p6lv60o5ioyos/MECP-Head-Start-Menu-April-2026.pdf",
+      "etag": "\"3934b7c7d78d0df5f4ab9b58dd3b7c29\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "559b1aa90"
+    },
+    "March 2026": {
+      "url": "https://resources.finalsite.net/images/v1772127449/ppsnet/heyqwuvnk0tui0akcse0/MECP-Head-Start-Menu-March-2026.pdf",
+      "etag": "\"8610c81ec073afd23613b6e57148c883\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "c206af160"
     }
   },
   "Neighborhood House": {
@@ -871,6 +1039,30 @@
       "etag": "\"d4a0b8bc3d087f900e534cd734144e6a\"",
       "fetched_at": "2026-04-21 00:20:49 +0000",
       "latest_hash": "2ebc2edc3"
+    },
+    "June 2026": {
+      "url": "https://resources.finalsite.net/images/v1778255727/ppsnet/djapxi2uychnc8gwg4yw/NH-Menu-June-2026.pdf",
+      "etag": "\"0bf70829b5dad0c2f10ac58735901fd1\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "aa99c99ae"
+    },
+    "May 2026": {
+      "url": "https://resources.finalsite.net/images/v1776692329/ppsnet/ht4iy8ciwuiyenkyllhj/NH-Menu-May-2026.pdf",
+      "etag": "\"d4a0b8bc3d087f900e534cd734144e6a\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "2ebc2edc3"
+    },
+    "April 2026": {
+      "url": "https://resources.finalsite.net/images/v1774447578/ppsnet/pb5iixjhuyaarpu4o1du/NH-Menu-April-2026.pdf",
+      "etag": "\"3e9ea6b8cdc3594237bf79302c9771e3\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "0ef1ead71"
+    },
+    "March 2026": {
+      "url": "https://resources.finalsite.net/images/v1772127474/ppsnet/zqzxqhrjkmfvnqmq5ucs/NH-Menu-March-2026.pdf",
+      "etag": "\"3b105ef677b2caf26b9d984aef69b17f\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "6b40297ee"
     }
   },
   "Afterschool Snack": {
@@ -978,6 +1170,30 @@
       "etag": "\"66fa710ba04c26cf977adcedb3fa4ef3\"",
       "fetched_at": "2026-04-21 00:20:49 +0000",
       "latest_hash": "9ff912653"
+    },
+    "June 2026": {
+      "url": "https://resources.finalsite.net/images/v1778255746/ppsnet/ozujcxlqb7khnirvrnk8/Afterschool-Snack-Menu-June-2026.pdf",
+      "etag": "\"2b2d7428b5e961d6dc7ba5dd8ecaa909\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "993aa76d0"
+    },
+    "May 2026": {
+      "url": "https://resources.finalsite.net/images/v1776692350/ppsnet/t1nlya80bveycbwsbu9a/Afterschool-Snack-Menu-May-2026.pdf",
+      "etag": "\"66fa710ba04c26cf977adcedb3fa4ef3\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "9ff912653"
+    },
+    "April 2026": {
+      "url": "https://resources.finalsite.net/images/v1774447600/ppsnet/jizi69viaacxxauw9gqq/Afterschool-Snack-Menu-April-2026.pdf",
+      "etag": "\"5ded81b71ba3419cae76ec8de9d73d04\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "3357192d7"
+    },
+    "March 2026": {
+      "url": "https://resources.finalsite.net/images/v1772127507/ppsnet/icndigxid4kbfgyz3lut/Afterschool-Snack-Menu-March-2026.pdf",
+      "etag": "\"7db5a58a2039a949dd33aefefdcb9ce2\"",
+      "fetched_at": "2026-05-10 00:25:45 +0000",
+      "latest_hash": "62cbfd418"
     }
   },
   "Head Start, Pre-K": {
