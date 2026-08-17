@@ -11,7 +11,7 @@ class PpsFoodFeed
   class CsvConverter
     include Appydays::Loggable
 
-    ANTHROPIC_MODEL = "claude-sonnet-4-20250514"
+    ANTHROPIC_MODEL = "claude-sonnet-4-6"
 
     def run
       FileUtils.mkdir_p(PpsFoodFeed::CSV_DIR)
