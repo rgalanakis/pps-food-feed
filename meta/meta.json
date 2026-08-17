@@ -140,6 +140,12 @@
       "etag": "\"d10c7c11bcfb59495fbf1aca57b0dd83\"",
       "fetched_at": "2026-05-10 00:25:45 +0000",
       "latest_hash": "65ef85011"
+    },
+    "August - September 2026": {
+      "url": "https://resources.finalsite.net/images/v1786717457/ppsnet/nzqoxjifjld7wgt7it3j/Breakfast-August-September-2026.pdf",
+      "etag": "\"a9c21a1f4854b50a35dd38f7d6d9d512\"",
+      "fetched_at": "2026-08-17 16:40:54 +0000",
+      "latest_hash": "6869a6edf"
     }
   },
   "Lunch (K5, K8, MS)": {
@@ -283,6 +289,12 @@
       "etag": "\"bb3b414677b45e88c51d2334f2074848\"",
       "fetched_at": "2026-05-10 00:25:45 +0000",
       "latest_hash": "27f710a42"
+    },
+    "August - September 2026": {
+      "url": "https://resources.finalsite.net/images/v1786717529/ppsnet/ppgwhg0nibdxkkqddbbs/K8-Lunch-August-September-2026.pdf",
+      "etag": "\"455feb6043a15a9ba14797bcdd8a97fa\"",
+      "fetched_at": "2026-08-17 16:40:54 +0000",
+      "latest_hash": "ff4c97553"
     }
   },
   "Lunch (HS)": {
@@ -426,6 +438,12 @@
       "etag": "\"6799279e2288042576e8c6c3d94d7f68\"",
       "fetched_at": "2026-05-10 00:25:45 +0000",
       "latest_hash": "4d29c0956"
+    },
+    "August - September 2026": {
+      "url": "https://resources.finalsite.net/images/v1786717496/ppsnet/la4hy7kqanimef50xxqz/HS-Lunch-August-September-2026.pdf",
+      "etag": "\"dd3a4a64eed3d0e6f0bc809d91824e0a\"",
+      "fetched_at": "2026-08-17 16:40:54 +0000",
+      "latest_hash": "465748dca"
     }
   },
   "Breakfast, Lunch (Access, CTP)": {
@@ -670,6 +688,12 @@
       "etag": "\"71f8248785e2479bbc34901c853f161e\"",
       "fetched_at": "2026-05-10 00:25:45 +0000",
       "latest_hash": "c082333b1"
+    },
+    "August - September 2026": {
+      "url": "https://resources.finalsite.net/images/v1786717479/ppsnet/gdzddo8mhyd1mxuieokw/EL-Lunch-September-2026.pdf",
+      "etag": "\"34b19aebda332f9b44c045908f47fa5b\"",
+      "fetched_at": "2026-08-17 16:40:54 +0000",
+      "latest_hash": "3c2fd386b"
     }
   },
   "Early Learners (Creston)": {
