@@ -825,6 +825,12 @@
       "etag": "\"60fba9fd86dae3a1fee43577715bbca9\"",
       "fetched_at": "2026-05-10 00:25:45 +0000",
       "latest_hash": "05695fea2"
+    },
+    "August - September 2026": {
+      "url": "https://resources.finalsite.net/images/v1787071683/ppsnet/gnt1liolln0gkrqgolus/Creston-EL-Menu-September-2026.pdf",
+      "etag": "\"ec704bbdd9ed9644a9b46d1d3e808e12\"",
+      "fetched_at": "2026-08-22 00:41:59 +0000",
+      "latest_hash": "e457aed32"
     }
   },
   "MECP": {
@@ -956,6 +962,12 @@
       "etag": "\"8610c81ec073afd23613b6e57148c883\"",
       "fetched_at": "2026-05-10 00:25:45 +0000",
       "latest_hash": "c206af160"
+    },
+    "August - September 2026": {
+      "url": "https://resources.finalsite.net/images/v1787071703/ppsnet/njltapjpjn87kbnhzand/MECP-Menu-September-2026.pdf",
+      "etag": "\"7bbc2446374168a3a2a093997e4e1e3d\"",
+      "fetched_at": "2026-08-22 00:41:59 +0000",
+      "latest_hash": "92244e225"
     }
   },
   "Neighborhood House": {
@@ -1087,6 +1099,12 @@
       "etag": "\"3b105ef677b2caf26b9d984aef69b17f\"",
       "fetched_at": "2026-05-10 00:25:45 +0000",
       "latest_hash": "6b40297ee"
+    },
+    "August - September 2026": {
+      "url": "https://resources.finalsite.net/images/v1787071724/ppsnet/vsy3dltga8v94ylzjnep/NH-Menu-August-September-2026.pdf",
+      "etag": "\"ca7098008f1b8d0d9992ffa3852634ea\"",
+      "fetched_at": "2026-08-22 00:41:59 +0000",
+      "latest_hash": "fa7919132"
     }
   },
   "Afterschool Snack": {
@@ -1218,6 +1236,12 @@
       "etag": "\"7db5a58a2039a949dd33aefefdcb9ce2\"",
       "fetched_at": "2026-05-10 00:25:45 +0000",
       "latest_hash": "62cbfd418"
+    },
+    "August - September 2026": {
+      "url": "https://resources.finalsite.net/images/v1787071744/ppsnet/o64nzdlmieidjuxxyrni/Afterschool-Snack-Menu-September-2026.pdf",
+      "etag": "\"de9b0fc2c07793de66125d43b1ba6b74\"",
+      "fetched_at": "2026-08-22 00:41:59 +0000",
+      "latest_hash": "ff2551d3e"
     }
   },
   "Head Start, Pre-K": {
@@ -1304,6 +1328,17 @@
       "fetched_at": "2025-05-19 00:09:15 +0000",
       "etag": "W/\"31337980bdc5db1:0\"",
       "latest_hash": "322d127b5"
+    }
+  },
+  "Breakfast (Access, CTP)": {
+    "August - September 2026": {
+      "url": "https://resources.finalsite.net/images/v1787071599/ppsnet/bzl0mbveumqwubluc2og/Access-CTP-Breakfast-August-September-2026.pdf",
+      "etag": "\"c72881c6a32dbbd56189fdc7162709df\"",
+      "fetched_at": "2026-08-22 00:41:59 +0000",
+      "latest_hash": "bb51975db"
+    },
+    "_": {
+      "ical_filename": "breakfast_access_ctp.ics"
     }
   }
 }
