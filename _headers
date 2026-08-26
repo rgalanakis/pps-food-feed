@@ -26,6 +26,10 @@
   Content-Type: text/calendar; method=PUBLISH; charset=UTF-8
   Content-Disposition: attachment; filename="Lunch-K5-K8-MS"
 
+/static/feeds/lunch_k5_k8_ms_access_ctp.ics
+  Content-Type: text/calendar; method=PUBLISH; charset=UTF-8
+  Content-Disposition: attachment; filename="Lunch-K5-K8-MS-Access-CTP"
+
 /static/feeds/mecp.ics
   Content-Type: text/calendar; method=PUBLISH; charset=UTF-8
   Content-Disposition: attachment; filename="MECP"
