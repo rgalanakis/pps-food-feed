@@ -1340,5 +1340,16 @@
     "_": {
       "ical_filename": "breakfast_access_ctp.ics"
     }
+  },
+  "Lunch (K5, K8, MS, Access, CTP)": {
+    "August - September 2026": {
+      "url": "https://resources.finalsite.net/images/v1786717529/ppsnet/ppgwhg0nibdxkkqddbbs/K8-Lunch-August-September-2026.pdf",
+      "etag": "\"455feb6043a15a9ba14797bcdd8a97fa\"",
+      "fetched_at": "2026-08-26 00:44:09 +0000",
+      "latest_hash": "ff4c97553"
+    },
+    "_": {
+      "ical_filename": "lunch_k5_k8_ms_access_ctp.ics"
+    }
   }
 }
