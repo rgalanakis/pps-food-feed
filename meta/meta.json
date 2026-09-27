@@ -146,6 +146,12 @@
       "etag": "\"a9c21a1f4854b50a35dd38f7d6d9d512\"",
       "fetched_at": "2026-08-17 16:40:54 +0000",
       "latest_hash": "6869a6edf"
+    },
+    "October": {
+      "url": "https://resources.finalsite.net/images/v1790369339/ppsnet/qwgdz8h2nzi3ctk7lexa/Breakfast-October-2026.pdf",
+      "etag": "\"da10003e01ad68438f48400c2a656cfb\"",
+      "fetched_at": "2026-09-27 02:40:35 +0000",
+      "latest_hash": "e1b58eed0"
     }
   },
   "Lunch (K5, K8, MS)": {
@@ -444,6 +450,12 @@
       "etag": "\"8118129eeaeb0baf181b5060c4749aa0\"",
       "fetched_at": "2026-08-25 00:43:12 +0000",
       "latest_hash": "f2613051f"
+    },
+    "October": {
+      "url": "https://resources.finalsite.net/images/v1790369406/ppsnet/w4eejllpzdbgjlfk0vpx/HS-Lunch-October-2026.pdf",
+      "etag": "\"870b0122e1b8824e745ab0605cb0e80d\"",
+      "fetched_at": "2026-09-27 02:40:35 +0000",
+      "latest_hash": "df380ec63"
     }
   },
   "Breakfast, Lunch (Access, CTP)": {
@@ -694,6 +706,12 @@
       "etag": "\"34b19aebda332f9b44c045908f47fa5b\"",
       "fetched_at": "2026-08-17 16:40:54 +0000",
       "latest_hash": "3c2fd386b"
+    },
+    "October": {
+      "url": "https://resources.finalsite.net/images/v1790369430/ppsnet/s538hpi2qeucr2ehjymd/EL-Menu-October-2026.pdf",
+      "etag": "\"7e5bb6745839acd8d613fe2a0af64f04\"",
+      "fetched_at": "2026-09-27 02:40:35 +0000",
+      "latest_hash": "e4e644a5a"
     }
   },
   "Early Learners (Creston)": {
@@ -831,6 +849,12 @@
       "etag": "\"ec704bbdd9ed9644a9b46d1d3e808e12\"",
       "fetched_at": "2026-08-22 00:41:59 +0000",
       "latest_hash": "e457aed32"
+    },
+    "October": {
+      "url": "https://resources.finalsite.net/images/v1790369448/ppsnet/lswa9g6ebebrci2wim5q/Creston-EL-Menu-October-2026.pdf",
+      "etag": "\"c3f6e66de83fb6de275560d70a0588f5\"",
+      "fetched_at": "2026-09-27 02:40:35 +0000",
+      "latest_hash": "b0c793860"
     }
   },
   "MECP": {
@@ -968,6 +992,12 @@
       "etag": "\"7bbc2446374168a3a2a093997e4e1e3d\"",
       "fetched_at": "2026-08-22 00:41:59 +0000",
       "latest_hash": "92244e225"
+    },
+    "October": {
+      "url": "https://resources.finalsite.net/images/v1790369466/ppsnet/qdzjpih3efnkwkcjgt8e/MECP-Menu-October-2026.pdf",
+      "etag": "\"b3e47c63bb951109b93d47ea0d4d69be\"",
+      "fetched_at": "2026-09-27 02:40:35 +0000",
+      "latest_hash": "19b801fba"
     }
   },
   "Neighborhood House": {
@@ -1105,6 +1135,12 @@
       "etag": "\"ca7098008f1b8d0d9992ffa3852634ea\"",
       "fetched_at": "2026-08-22 00:41:59 +0000",
       "latest_hash": "fa7919132"
+    },
+    "October": {
+      "url": "https://resources.finalsite.net/images/v1790369483/ppsnet/vick1xi6zwgvxzyjn6br/NH-Menu-October-2026.pdf",
+      "etag": "\"2247c67a5108c43c93ba0d41dca47a5d\"",
+      "fetched_at": "2026-09-27 02:40:35 +0000",
+      "latest_hash": "3d6bad768"
     }
   },
   "Afterschool Snack": {
@@ -1242,6 +1278,12 @@
       "etag": "\"de9b0fc2c07793de66125d43b1ba6b74\"",
       "fetched_at": "2026-08-22 00:41:59 +0000",
       "latest_hash": "ff2551d3e"
+    },
+    "October": {
+      "url": "https://resources.finalsite.net/images/v1790369498/ppsnet/ifnuzarbgyhpyc3jztvb/Afterschool-Snack-Menu-October-2026.pdf",
+      "etag": "\"064d4de23eb561040aed101d805dbd30\"",
+      "fetched_at": "2026-09-27 02:40:35 +0000",
+      "latest_hash": "29bfeb5db"
     }
   },
   "Head Start, Pre-K": {
@@ -1339,6 +1381,12 @@
     },
     "_": {
       "ical_filename": "breakfast_access_ctp.ics"
+    },
+    "October": {
+      "url": "https://resources.finalsite.net/images/v1790369358/ppsnet/wk8wo6v8zymjlxujhtqf/Access-CTP-Breakfast-October-2026.pdf",
+      "etag": "\"a5b793c8acae10d7e5fd26d8dbe4c5a9\"",
+      "fetched_at": "2026-09-27 02:40:35 +0000",
+      "latest_hash": "c06db01d4"
     }
   },
   "Lunch (K5, K8, MS, Access, CTP)": {
@@ -1350,6 +1398,12 @@
     },
     "_": {
       "ical_filename": "lunch_k5_k8_ms_access_ctp.ics"
+    },
+    "October": {
+      "url": "https://resources.finalsite.net/images/v1790369384/ppsnet/zjl2wz2fa3xnw8pbtsjz/K8-Lunch-October-2026.pdf",
+      "etag": "\"78d8a10d51c0e1b7d4b2649dc12a81a8\"",
+      "fetched_at": "2026-09-27 02:40:35 +0000",
+      "latest_hash": "000b8ceff"
     }
   }
 }
