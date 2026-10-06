@@ -452,10 +452,10 @@
       "latest_hash": "f2613051f"
     },
     "October": {
-      "url": "https://resources.finalsite.net/images/v1790369406/ppsnet/w4eejllpzdbgjlfk0vpx/HS-Lunch-October-2026.pdf",
-      "etag": "\"870b0122e1b8824e745ab0605cb0e80d\"",
-      "fetched_at": "2026-09-27 02:40:35 +0000",
-      "latest_hash": "df380ec63"
+      "url": "https://resources.finalsite.net/images/v1791206294/ppsnet/y4oabb44mwkvz2ppvf7u/HS-Lunch-October-2026_1.pdf",
+      "etag": "\"42b46c5102a4deb791754dcdc8eee6bd\"",
+      "fetched_at": "2026-10-06 03:58:53 +0000",
+      "latest_hash": "0d367b60a"
     }
   },
   "Breakfast, Lunch (Access, CTP)": {
@@ -708,10 +708,10 @@
       "latest_hash": "3c2fd386b"
     },
     "October": {
-      "url": "https://resources.finalsite.net/images/v1790369430/ppsnet/s538hpi2qeucr2ehjymd/EL-Menu-October-2026.pdf",
-      "etag": "\"7e5bb6745839acd8d613fe2a0af64f04\"",
-      "fetched_at": "2026-09-27 02:40:35 +0000",
-      "latest_hash": "e4e644a5a"
+      "url": "https://resources.finalsite.net/images/v1791206329/ppsnet/xcpkteceal2xkc0bbbzf/EL-Menu-October-2026_1.pdf",
+      "etag": "\"2117d0b4506039198dec48c1d5e81c69\"",
+      "fetched_at": "2026-10-06 03:58:53 +0000",
+      "latest_hash": "0b8d67205"
     }
   },
   "Early Learners (Creston)": {
@@ -851,10 +851,10 @@
       "latest_hash": "e457aed32"
     },
     "October": {
-      "url": "https://resources.finalsite.net/images/v1790369448/ppsnet/lswa9g6ebebrci2wim5q/Creston-EL-Menu-October-2026.pdf",
-      "etag": "\"c3f6e66de83fb6de275560d70a0588f5\"",
-      "fetched_at": "2026-09-27 02:40:35 +0000",
-      "latest_hash": "b0c793860"
+      "url": "https://resources.finalsite.net/images/v1791206371/ppsnet/lb52rq4hje6ggwfm8zs1/Creston-EL-Menu-October-2026_1.pdf",
+      "etag": "\"22f4561fee467139bf73bd7f33bdc7a5\"",
+      "fetched_at": "2026-10-06 03:58:53 +0000",
+      "latest_hash": "2312dbd04"
     }
   },
   "MECP": {
@@ -994,10 +994,10 @@
       "latest_hash": "92244e225"
     },
     "October": {
-      "url": "https://resources.finalsite.net/images/v1790369466/ppsnet/qdzjpih3efnkwkcjgt8e/MECP-Menu-October-2026.pdf",
-      "etag": "\"b3e47c63bb951109b93d47ea0d4d69be\"",
-      "fetched_at": "2026-09-27 02:40:35 +0000",
-      "latest_hash": "19b801fba"
+      "url": "https://resources.finalsite.net/images/v1791206400/ppsnet/coi4y8nk2zms6qnofgvg/MECP-Menu-October-2026_1.pdf",
+      "etag": "\"9a1efffc913fbbd93c777a4a146b6e5f\"",
+      "fetched_at": "2026-10-06 03:58:53 +0000",
+      "latest_hash": "bb531aeaf"
     }
   },
   "Neighborhood House": {
@@ -1383,10 +1383,10 @@
       "ical_filename": "breakfast_access_ctp.ics"
     },
     "October": {
-      "url": "https://resources.finalsite.net/images/v1790369358/ppsnet/wk8wo6v8zymjlxujhtqf/Access-CTP-Breakfast-October-2026.pdf",
-      "etag": "\"a5b793c8acae10d7e5fd26d8dbe4c5a9\"",
-      "fetched_at": "2026-09-27 02:40:35 +0000",
-      "latest_hash": "c06db01d4"
+      "url": "https://resources.finalsite.net/images/v1791206542/ppsnet/apldnaezmohdwfnnyxdz/MECP-Menu-October-2026_3.pdf",
+      "etag": "\"bc279c77a57a4b3d4f52c90eea587561\"",
+      "fetched_at": "2026-10-06 03:58:53 +0000",
+      "latest_hash": "4ea492b5c"
     }
   },
   "Lunch (K5, K8, MS, Access, CTP)": {
@@ -1400,10 +1400,10 @@
       "ical_filename": "lunch_k5_k8_ms_access_ctp.ics"
     },
     "October": {
-      "url": "https://resources.finalsite.net/images/v1790369384/ppsnet/zjl2wz2fa3xnw8pbtsjz/K8-Lunch-October-2026.pdf",
-      "etag": "\"78d8a10d51c0e1b7d4b2649dc12a81a8\"",
-      "fetched_at": "2026-09-27 02:40:35 +0000",
-      "latest_hash": "000b8ceff"
+      "url": "https://resources.finalsite.net/images/v1791206864/ppsnet/zaqdzzn1nlybyafvy0dk/K8-Lunch-October-2026.pdf",
+      "etag": "\"225610dd2a9f1e369a8ee67eaf2cb46b\"",
+      "fetched_at": "2026-10-06 03:58:53 +0000",
+      "latest_hash": "062f3fce2"
     }
   }
 }
