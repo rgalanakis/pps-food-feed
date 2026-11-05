@@ -158,6 +158,18 @@
       "etag": "\"eaf3a94f6478b6ee340874c26cc0203f\"",
       "fetched_at": "2026-11-03 04:41:57 +0000",
       "latest_hash": "fcdb03f5e"
+    },
+    "December": {
+      "url": "https://resources.finalsite.net/images/v1793811248/ppsnet/xwdlqpi3yqdfrfjstyib/Breakfast-December-2026.pdf",
+      "etag": "\"42b996fe3ca5add1d608aaf327792b62\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "046ae9174"
+    },
+    "August - September": {
+      "url": "https://resources.finalsite.net/images/v1786717457/ppsnet/nzqoxjifjld7wgt7it3j/Breakfast-August-September-2026.pdf",
+      "etag": "\"a9c21a1f4854b50a35dd38f7d6d9d512\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "6869a6edf"
     }
   },
   "Lunch (K5, K8, MS)": {
@@ -468,6 +480,18 @@
       "etag": "\"1da5bd4b87b3e793ccbca7c02abb391a\"",
       "fetched_at": "2026-11-03 04:41:57 +0000",
       "latest_hash": "1ee01e9b6"
+    },
+    "December": {
+      "url": "https://resources.finalsite.net/images/v1793811353/ppsnet/eijdrwwardczml8my6b0/HS-Lunch-December-2026.pdf",
+      "etag": "\"6f9927b090d727ad8b9ff2d9bf7eb02b\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "4e8e799d4"
+    },
+    "August - September": {
+      "url": "https://resources.finalsite.net/images/v1787582851/ppsnet/urqxnz4oiv8frsmsod0j/HS-Lunch-August-September-2026_1.pdf",
+      "etag": "\"8118129eeaeb0baf181b5060c4749aa0\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "f2613051f"
     }
   },
   "Breakfast, Lunch (Access, CTP)": {
@@ -730,6 +754,18 @@
       "etag": "\"90061aa20f4102e14cce6cfc5eea448d\"",
       "fetched_at": "2026-11-03 04:41:57 +0000",
       "latest_hash": "7ced7c7cd"
+    },
+    "December": {
+      "url": "https://resources.finalsite.net/images/v1793811372/ppsnet/uwufjhilyv4zjsp68ixf/EL-Menu-December-2026.pdf",
+      "etag": "\"6869ef864765c5d7cf830d199247f490\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "f0167c177"
+    },
+    "August - September": {
+      "url": "https://resources.finalsite.net/images/v1786717479/ppsnet/gdzddo8mhyd1mxuieokw/EL-Lunch-September-2026.pdf",
+      "etag": "\"34b19aebda332f9b44c045908f47fa5b\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "3c2fd386b"
     }
   },
   "Early Learners (Creston)": {
@@ -879,6 +915,18 @@
       "etag": "\"c8187b7724328976e35196b7eccbe982\"",
       "fetched_at": "2026-11-03 04:41:57 +0000",
       "latest_hash": "46a98ed5c"
+    },
+    "December": {
+      "url": "https://resources.finalsite.net/images/v1793811392/ppsnet/lby9vqndptdp5s1cra29/Creston-EL-Menu-December-2026.pdf",
+      "etag": "\"6dec11e21b83d89eb5b202dda619b38e\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "a305f2ce6"
+    },
+    "August - September": {
+      "url": "https://resources.finalsite.net/images/v1787071683/ppsnet/gnt1liolln0gkrqgolus/Creston-EL-Menu-September-2026.pdf",
+      "etag": "\"ec704bbdd9ed9644a9b46d1d3e808e12\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "e457aed32"
     }
   },
   "MECP": {
@@ -1028,6 +1076,18 @@
       "etag": "\"1115b9a5c841ef981f10f260c9745e2b\"",
       "fetched_at": "2026-11-03 04:41:57 +0000",
       "latest_hash": "77f375ce0"
+    },
+    "December": {
+      "url": "https://resources.finalsite.net/images/v1793811409/ppsnet/yyk51b5u6jkvti5v43lq/MECP-Menu-December-2026.pdf",
+      "etag": "\"9363c16f786755c151f7b059c79badc8\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "9be15e525"
+    },
+    "August - September": {
+      "url": "https://resources.finalsite.net/images/v1787071703/ppsnet/njltapjpjn87kbnhzand/MECP-Menu-September-2026.pdf",
+      "etag": "\"7bbc2446374168a3a2a093997e4e1e3d\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "92244e225"
     }
   },
   "Neighborhood House": {
@@ -1173,10 +1233,22 @@
       "latest_hash": "3d6bad768"
     },
     "November": {
-      "url": "https://resources.finalsite.net/images/v1792787829/ppsnet/ibvx3wlrgtqd62tfmvjo/NH-Menu-November-2026.pdf",
-      "etag": "\"5c51c13fe54c71c2f1b78fac07439aed\"",
-      "fetched_at": "2026-11-03 04:41:57 +0000",
-      "latest_hash": "c3dff6669"
+      "url": "https://resources.finalsite.net/images/v1793802229/ppsnet/fnyj0yeawv4swvyxb3mv/NH-Menu-November-2026_final_1.pdf",
+      "etag": "\"c9cab4fdaaea129ce1e8b6132f2f6bb1\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "1a814627e"
+    },
+    "December": {
+      "url": "https://resources.finalsite.net/images/v1793811424/ppsnet/lhbxx3huk2fprr9r11rw/NH-Menu-December-2026.pdf",
+      "etag": "\"0624dc08bbf94ddb32ba65d6909bf709\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "e4e22406c"
+    },
+    "August - September": {
+      "url": "https://resources.finalsite.net/images/v1787071724/ppsnet/vsy3dltga8v94ylzjnep/NH-Menu-August-September-2026.pdf",
+      "etag": "\"ca7098008f1b8d0d9992ffa3852634ea\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "fa7919132"
     }
   },
   "Afterschool Snack": {
@@ -1326,6 +1398,18 @@
       "etag": "\"a816427f52c96e387cf96cadad2b61a2\"",
       "fetched_at": "2026-11-03 04:41:57 +0000",
       "latest_hash": "97b09b573"
+    },
+    "December": {
+      "url": "https://resources.finalsite.net/images/v1793811442/ppsnet/piuah12hfljxcafmoc2v/Afterschool-Snack-Menu-December-2026.pdf",
+      "etag": "\"7d22505df7bea1d9bb72203c9eb3e634\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "a523e2cb6"
+    },
+    "August - September": {
+      "url": "https://resources.finalsite.net/images/v1787071744/ppsnet/o64nzdlmieidjuxxyrni/Afterschool-Snack-Menu-September-2026.pdf",
+      "etag": "\"de9b0fc2c07793de66125d43b1ba6b74\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "ff2551d3e"
     }
   },
   "Head Start, Pre-K": {
@@ -1435,6 +1519,18 @@
       "etag": "\"d33100cf553b99390cabdfd3df5e5e82\"",
       "fetched_at": "2026-11-03 04:41:57 +0000",
       "latest_hash": "4623b41e7"
+    },
+    "December": {
+      "url": "https://resources.finalsite.net/images/v1793811296/ppsnet/smagcawyapuiwlragwvj/Access-CTP-Breakfast-December-2026.pdf",
+      "etag": "\"1873cac9463bb381917c74f173ade981\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "5e6fe4fbd"
+    },
+    "August - September": {
+      "url": "https://resources.finalsite.net/images/v1787071599/ppsnet/bzl0mbveumqwubluc2og/Access-CTP-Breakfast-August-September-2026.pdf",
+      "etag": "\"c72881c6a32dbbd56189fdc7162709df\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "bb51975db"
     }
   },
   "Lunch (K5, K8, MS, Access, CTP)": {
@@ -1458,6 +1554,18 @@
       "etag": "\"dfcc1bf34a1b7c16b40cbee21d65ce98\"",
       "fetched_at": "2026-11-03 04:41:57 +0000",
       "latest_hash": "eec9f149b"
+    },
+    "December": {
+      "url": "https://resources.finalsite.net/images/v1793811323/ppsnet/zguqrlzllhwv65efkukc/K8-Lunch-December-2026.pdf",
+      "etag": "\"82a3f1e8aca4573c35c3dd414894e86f\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "79a0e549e"
+    },
+    "August - September": {
+      "url": "https://resources.finalsite.net/images/v1786717529/ppsnet/ppgwhg0nibdxkkqddbbs/K8-Lunch-August-September-2026.pdf",
+      "etag": "\"455feb6043a15a9ba14797bcdd8a97fa\"",
+      "fetched_at": "2026-11-05 04:23:53 +0000",
+      "latest_hash": "ff4c97553"
     }
   }
 }
