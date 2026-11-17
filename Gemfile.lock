@@ -79,7 +79,7 @@ DEPENDENCIES
   rubocop
 
 RUBY VERSION
-   ruby 3.3.4p94
+   ruby 3.4.12p148
 
 BUNDLED WITH
    2.5.11

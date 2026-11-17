@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-ruby "3.3.4"
+ruby "3.4.12"
 
 # We do not want to install anything in Netlify
 group :build do
